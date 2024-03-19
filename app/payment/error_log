@@ -1,0 +1,303 @@
+[25-Jun-2021 10:06:04 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:10:36 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:10:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:10:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:11:32 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:11:51 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:11:51 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:11:51 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:11:51 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:13:06 UTC] PHP Notice:  Undefined index: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 17
+[25-Jun-2021 10:13:06 UTC] PHP Notice:  Undefined index: customer_email in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 18
+[25-Jun-2021 10:13:06 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 19
+[25-Jun-2021 10:13:06 UTC] PHP Notice:  Undefined index: reference_number in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 20
+[25-Jun-2021 10:13:06 UTC] PHP Notice:  Undefined index: result in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 21
+[25-Jun-2021 10:13:06 UTC] PHP Notice:  Undefined index: gateway_response in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 22
+[25-Jun-2021 10:13:07 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:19:56 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:19:56 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:21:14 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:21:32 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 17
+[25-Jun-2021 10:21:32 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 18
+[25-Jun-2021 10:21:32 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 19
+[25-Jun-2021 10:21:32 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 20
+[25-Jun-2021 10:21:32 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 21
+[25-Jun-2021 10:21:32 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 22
+[25-Jun-2021 10:21:32 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:21:32 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 10:22:42 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 17
+[25-Jun-2021 10:22:42 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 18
+[25-Jun-2021 10:22:42 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 19
+[25-Jun-2021 10:22:42 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 20
+[25-Jun-2021 10:22:42 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 21
+[25-Jun-2021 10:22:42 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 22
+[25-Jun-2021 10:22:42 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:22:42 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 10:23:36 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:23:36 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:23:36 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:23:36 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:24:13 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 17
+[25-Jun-2021 10:24:13 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 18
+[25-Jun-2021 10:24:13 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 19
+[25-Jun-2021 10:24:13 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 20
+[25-Jun-2021 10:24:13 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 21
+[25-Jun-2021 10:24:13 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 22
+[25-Jun-2021 10:24:13 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:24:13 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 10:25:02 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 17
+[25-Jun-2021 10:25:02 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 18
+[25-Jun-2021 10:25:02 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 19
+[25-Jun-2021 10:25:02 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 20
+[25-Jun-2021 10:25:02 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 21
+[25-Jun-2021 10:25:02 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 22
+[25-Jun-2021 10:25:02 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:25:02 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 10:25:03 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:27:03 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 17
+[25-Jun-2021 10:27:03 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 18
+[25-Jun-2021 10:27:03 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 19
+[25-Jun-2021 10:27:03 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 20
+[25-Jun-2021 10:27:03 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 21
+[25-Jun-2021 10:27:03 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 22
+[25-Jun-2021 10:27:03 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:27:03 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 10:27:04 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:27:55 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:27:55 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:28:33 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:28:33 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:29:26 UTC] PHP Notice:  Undefined index: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 17
+[25-Jun-2021 10:29:26 UTC] PHP Notice:  Undefined index: customer_email in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 18
+[25-Jun-2021 10:29:26 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 19
+[25-Jun-2021 10:29:26 UTC] PHP Notice:  Undefined index: reference_number in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 20
+[25-Jun-2021 10:29:26 UTC] PHP Notice:  Undefined index: result in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 21
+[25-Jun-2021 10:29:26 UTC] PHP Notice:  Undefined index: gateway_response in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 22
+[25-Jun-2021 10:29:26 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:31:29 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 10:31:29 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[25-Jun-2021 10:31:29 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[25-Jun-2021 10:31:29 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[25-Jun-2021 10:31:29 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[25-Jun-2021 10:31:29 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[25-Jun-2021 10:31:29 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:31:29 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 52
+[25-Jun-2021 10:31:29 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:33:07 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 10:33:07 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[25-Jun-2021 10:33:07 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[25-Jun-2021 10:33:07 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[25-Jun-2021 10:33:07 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[25-Jun-2021 10:33:07 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[25-Jun-2021 10:33:07 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:33:07 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 52
+[25-Jun-2021 10:33:07 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:42:34 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 10:44:37 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 10:47:08 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 10:48:30 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 10:48:30 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[25-Jun-2021 10:48:30 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[25-Jun-2021 10:48:30 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[25-Jun-2021 10:48:30 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[25-Jun-2021 10:48:30 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[25-Jun-2021 10:48:30 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:48:30 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 52
+[25-Jun-2021 10:48:30 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:49:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 10:49:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 10:50:38 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 10:50:38 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[25-Jun-2021 10:50:38 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[25-Jun-2021 10:50:38 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[25-Jun-2021 10:50:38 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[25-Jun-2021 10:50:38 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[25-Jun-2021 10:50:38 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 10:50:38 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 52
+[25-Jun-2021 10:50:38 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 10:51:49 UTC] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 11:08:24 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 11:08:24 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[25-Jun-2021 11:08:24 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[25-Jun-2021 11:08:24 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[25-Jun-2021 11:08:24 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[25-Jun-2021 11:08:24 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[25-Jun-2021 11:08:24 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:08:24 UTC] PHP Warning:  Use of undefined constant dissss - assumed 'dissss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 52
+[25-Jun-2021 11:08:24 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 11:14:13 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 11:14:13 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 11:15:00 UTC] PHP Warning:  Illegal string offset 'amount' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[25-Jun-2021 11:15:00 UTC] PHP Warning:  Illegal string offset 'customer_email' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[25-Jun-2021 11:15:00 UTC] PHP Warning:  Illegal string offset 'order_no' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[25-Jun-2021 11:15:00 UTC] PHP Warning:  Illegal string offset 'reference_number' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[25-Jun-2021 11:15:00 UTC] PHP Warning:  Illegal string offset 'result' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[25-Jun-2021 11:15:00 UTC] PHP Warning:  Illegal string offset 'gateway_response' in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[25-Jun-2021 11:15:00 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:15:00 UTC] PHP Warning:  Use of undefined constant ssssss - assumed 'ssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 52
+[25-Jun-2021 11:15:01 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[25-Jun-2021 11:20:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Jun-2021 11:20:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Jun-2021 11:21:47 UTC] PHP Warning:  stripslashes() expects parameter 1 to be string, array given in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 38
+[25-Jun-2021 11:21:47 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:21:47 UTC] PHP Warning:  Use of undefined constant ssssss - assumed 'ssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 52
+[25-Jun-2021 11:21:47 UTC] PHP Notice:  Array to string conversion in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 54
+[25-Jun-2021 11:21:47 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:21:47 UTC] PHP Notice:  Undefined variable: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 41
+[25-Jun-2021 11:27:17 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:27:17 UTC] PHP Warning:  Use of undefined constant ssssss - assumed 'ssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 11:27:17 UTC] PHP Notice:  Array to string conversion in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 47
+[25-Jun-2021 11:27:17 UTC] PHP Notice:  Array to string conversion in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 47
+[25-Jun-2021 11:27:19 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:27:19 UTC] PHP Notice:  Undefined variable: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 41
+[25-Jun-2021 11:31:28 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:31:28 UTC] PHP Warning:  Use of undefined constant ssssss - assumed 'ssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 11:31:29 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:31:29 UTC] PHP Notice:  Undefined variable: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 41
+[25-Jun-2021 11:38:47 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:38:47 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 20
+[25-Jun-2021 11:38:47 UTC] PHP Notice:  Undefined variable: stmt in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 21
+[25-Jun-2021 11:38:47 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 21
+[25-Jun-2021 11:39:05 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:39:05 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 20
+[25-Jun-2021 11:39:05 UTC] PHP Notice:  Undefined variable: stmt in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 21
+[25-Jun-2021 11:39:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function execute() on null in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 21
+[25-Jun-2021 11:39:34 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:39:34 UTC] PHP Notice:  Undefined variable: name in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 18
+[25-Jun-2021 11:39:34 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 20
+[25-Jun-2021 11:40:10 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:40:10 UTC] PHP Notice:  Undefined variable: name in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 18
+[25-Jun-2021 11:40:10 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 20
+[25-Jun-2021 11:40:33 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:40:33 UTC] PHP Notice:  Undefined variable: name in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 18
+[25-Jun-2021 11:40:33 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 20
+[25-Jun-2021 11:40:59 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:40:59 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:42:17 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:42:17 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:42:36 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:42:36 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:45:38 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:45:38 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:46:30 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:46:30 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:46:57 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:46:57 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:47:40 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:47:40 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:47:58 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:47:58 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:50:14 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:50:14 UTC] PHP Warning:  Use of undefined constant ssssss - assumed 'ssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 11:50:15 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:50:15 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:51:16 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:51:16 UTC] PHP Warning:  Use of undefined constant ssssss - assumed 'ssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 11:51:17 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:51:17 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 11:54:17 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:54:17 UTC] PHP Warning:  Use of undefined constant ssssss - assumed 'ssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 11:54:18 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 11:54:18 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 12:36:54 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:36:54 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 12:36:54 UTC] PHP Notice:  Array to string conversion in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 47
+[25-Jun-2021 12:36:55 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:36:55 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 12:36:55 UTC] PHP Notice:  Undefined variable: txnid in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 35
+[25-Jun-2021 12:39:04 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:39:04 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 12:39:05 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:39:05 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 12:39:49 UTC] PHP Notice:  Undefined index: txtid in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/result_success_txtid.php on line 4
+[25-Jun-2021 12:41:28 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:41:28 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 12:41:28 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:41:28 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jun-2021 12:41:35 UTC] PHP Notice:  Undefined index: txtid in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/result_success_txtid.php on line 4
+[25-Jun-2021 12:47:07 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:47:07 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jun-2021 12:47:08 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jun-2021 12:47:08 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jul-2021 05:33:15 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jul-2021 05:33:15 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[25-Jul-2021 05:33:16 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[25-Jul-2021 05:33:16 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[25-Jul-2021 05:33:21 UTC] PHP Notice:  Undefined index: txtid in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/result_success_txtid.php on line 4
+[04-Aug-2021 10:59:57 UTC] PHP Notice:  Undefined index: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 5
+[04-Aug-2021 10:59:57 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 6
+[04-Aug-2021 10:59:57 UTC] PHP Notice:  Undefined index: customer_email in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 9
+[04-Aug-2021 10:59:58 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[04-Aug-2021 10:59:58 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[25-Sep-2021 08:53:49 UTC] PHP Notice:  Undefined index: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 5
+[25-Sep-2021 08:53:49 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 6
+[25-Sep-2021 08:53:49 UTC] PHP Notice:  Undefined index: customer_email in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 9
+[25-Sep-2021 08:53:50 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[25-Sep-2021 08:53:50 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[20-Nov-2021 09:37:29 UTC] PHP Notice:  Undefined index: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 5
+[20-Nov-2021 09:37:29 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 6
+[20-Nov-2021 09:37:29 UTC] PHP Notice:  Undefined index: customer_email in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 9
+[20-Nov-2021 09:37:30 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[20-Nov-2021 09:37:30 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[04-Dec-2021 13:40:09 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[04-Dec-2021 13:40:09 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[04-Dec-2021 13:40:09 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[04-Dec-2021 13:40:09 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[04-Dec-2021 13:40:13 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 6
+[04-Dec-2021 13:40:13 UTC] PHP Notice:  Undefined index: reference_number in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 7
+[04-Dec-2021 13:41:22 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[04-Dec-2021 13:41:22 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[04-Dec-2021 13:41:22 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[04-Dec-2021 13:41:22 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[04-Dec-2021 13:41:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[04-Dec-2021 13:41:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[04-Dec-2021 13:42:01 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[04-Dec-2021 13:42:01 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[04-Dec-2021 13:42:22 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[04-Dec-2021 13:42:22 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[04-Dec-2021 13:43:27 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[04-Dec-2021 13:43:27 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[04-Dec-2021 13:43:28 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[04-Dec-2021 13:43:28 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[04-Dec-2021 13:43:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 40
+[04-Dec-2021 13:43:43 UTC] PHP Notice:  Undefined index: url in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet-curl.php on line 41
+[05-Dec-2021 08:35:33 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[05-Dec-2021 08:35:33 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[05-Dec-2021 08:35:34 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[05-Dec-2021 08:35:34 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[16-Dec-2021 13:53:52 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[16-Dec-2021 13:53:52 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45
+[16-Dec-2021 13:53:53 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 18
+[16-Dec-2021 13:53:53 UTC] PHP Warning:  Use of undefined constant ss - assumed 'ss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/success.php on line 19
+[16-Dec-2021 13:58:02 UTC] PHP Notice:  Undefined index: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[16-Dec-2021 13:58:02 UTC] PHP Notice:  Undefined index: customer_email in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[16-Dec-2021 13:58:02 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[16-Dec-2021 13:58:02 UTC] PHP Notice:  Undefined index: reference_number in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[16-Dec-2021 13:58:02 UTC] PHP Notice:  Undefined index: result in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[16-Dec-2021 13:58:02 UTC] PHP Notice:  Undefined index: gateway_response in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[16-Dec-2021 14:00:20 UTC] PHP Notice:  Undefined index: amount in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 24
+[16-Dec-2021 14:00:20 UTC] PHP Notice:  Undefined index: customer_email in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 25
+[16-Dec-2021 14:00:20 UTC] PHP Notice:  Undefined index: order_no in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 26
+[16-Dec-2021 14:00:20 UTC] PHP Notice:  Undefined index: reference_number in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 27
+[16-Dec-2021 14:00:20 UTC] PHP Notice:  Undefined index: result in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 28
+[16-Dec-2021 14:00:20 UTC] PHP Notice:  Undefined index: gateway_response in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 29
+[04-Jan-2022 12:26:03 UTC] PHP Notice:  Undefined property: mysqli::$connection_error in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/db_connection.php on line 19
+[04-Jan-2022 12:26:03 UTC] PHP Warning:  Use of undefined constant sssssss - assumed 'sssssss' (this will throw an Error in a future version of PHP) in /home/adminafrah/public_html/app.afrahalkhaleej.com/app/payment/knet_disclosure_url.php on line 45

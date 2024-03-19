@@ -1,0 +1,45 @@
+.default-shipping-address {
+    background-color: rgba(var(--bs-secondary-rgb), 0.5);
+    font-size: 14px;
+    width: fit-content;
+}
+
+.remove-address,
+.default-address {
+    font-size: 14px;
+    letter-spacing: .065rem;
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.remove-address:hover,
+.default-address:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#addressForm label,
+.form-check-label {
+    font-size: 1rem;
+}
+
+.form-check-input {
+    height: 1.5em;
+    width: 1.5em;
+}
+
+.form-control,
+.form-select {
+    border-radius: 0;
+    border: none;
+    border-bottom: var(--bs-border-width) var(--bs-border-style) var(--bs-border-color);
+}

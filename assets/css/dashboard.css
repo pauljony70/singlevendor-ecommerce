@@ -1,0 +1,49 @@
+.active {
+    border-left: 3px solid black !important; 
+    color: #000 !important;
+}
+
+.user-routing-list li a {
+    font-size: 1rem;
+    font-weight: 500;
+    letter-spacing: .065rem;
+    color: rgb(92, 92, 92);
+    padding: 0px 10px;
+    border-left: 3px solid transparent;
+}
+
+.user-routing-list li a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+.user-routing-list li {
+    margin: 15px 0px;
+    list-style: none;
+}
+
+.profile-details {
+    font-size: 14px;
+    color: #000;
+}
+
+button {
+    letter-spacing: 2px;
+}
+
+.wishlist-items .prod-name {
+    font-size: 0.875rem;
+    letter-spacing: .065rem;
+}
+
+.wishlist-items .price-div {
+    letter-spacing: .125rem;
+    gap: 10px;
+}
+
+@media (max-width:768px) {
+    .user-routing-list li a {
+        font-size: 14px;
+        padding: 0px 5px;
+    }
+}

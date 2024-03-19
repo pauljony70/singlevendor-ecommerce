@@ -1,0 +1,36 @@
+.product-card {
+    border: none;
+}
+
+.product-card .card-text {
+    letter-spacing: .125rem;
+}
+
+.product-card .card-text.d-flex {
+    gap: 10px;
+}
+
+.product-card {
+    position: relative;
+}
+
+.product-card .product-title {
+    position: relative;
+    width: fit-content;
+}
+
+.product-card .product-title::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background-color: var(--bs-secondary);
+    transition: width 0.3s ease-in-out;
+    top: 75%;
+}
+
+.product-card:hover .product-title::after {
+    width: 100%;
+}

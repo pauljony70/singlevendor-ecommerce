@@ -1,0 +1,3 @@
+.page-heading {
+    font-size: calc(1.5rem + 0.75 * ((100vw - 47.9375rem)/42.0625));
+}

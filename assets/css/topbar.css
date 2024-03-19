@@ -1,0 +1,21 @@
+.top-bar {
+    z-index: 1040;
+}
+
+.topbar-text {
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0em;
+}
+
+@media(max-width: 767px) {
+    .topbar-text {
+        font-size: 14px;
+    }
+}
+
+@media(max-width: 576px) {
+    .topbar-text {
+        font-size: 10px;
+    }
+}

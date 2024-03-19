@@ -1,0 +1,21 @@
+.cart-page .page-heading {
+    font-size: calc(1.5rem + 0.75 * ((100vw - 47.9375rem)/42.0625));
+}
+
+.cart-page .prod-name {
+    font-size: 1rem;
+    letter-spacing: .065rem;
+}
+
+.cart-page .product-attributes {
+    font-size: .875rem;
+}
+
+.cart-page .price-div {
+    font-size: .875rem;
+    letter-spacing: 2px;
+}
+
+.cart-page .order-summary {
+    background-color: #fff0f1;
+}

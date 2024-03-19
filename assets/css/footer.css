@@ -1,0 +1,30 @@
+.footer-badges {
+    background-color: var(--bs-gray-100);
+}
+
+.footer-badges i {
+    font-size: 2.5rem;
+}
+
+.exchange-img .heading {
+    font-size: 14px;
+}
+
+.free-shipping-text {
+    font-size: xx-small;
+    opacity: 0.5;
+}
+
+@media(max-width: 768px) {
+    .footer-badges i {
+        font-size: 1.3rem;
+    }
+
+    .exchange-img .heading {
+        font-size: 10px;
+    }
+
+    .free-shipping-text {
+        font-size: 8px;
+    }
+}

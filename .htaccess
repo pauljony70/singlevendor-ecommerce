@@ -1,9 +1,3 @@
-<IfModule mod_headers.c>
-    <FilesMatch "\.(ttf|ttc|otf|eot|woff|woff2|font.css|css|js)$">
-        Header set Access-Control-Allow-Origin "https://www.reshamdhaage.com"
-    </FilesMatch>
-</IfModule>
-
 RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d

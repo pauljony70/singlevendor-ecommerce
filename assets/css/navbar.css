@@ -1,7 +1,12 @@
 .menu-navbar {
     /* height: 68.43px; */
-    height: 100px;
+    /* height: 100px; */
+    height: 85px;
     z-index: 999 !important;
+}
+
+.menu-navbar .col-8.col-8.d-flex.align-items-center{
+    gap: 8px
 }
 
 .menu-navbar .nav-item {
@@ -187,8 +192,8 @@
     font-weight: 700;
     padding: 0 1rem;
     transition: background 0.3s ease-in-out;
-    min-width: 150px;
-    text-align: center;
+    min-width: 90px;
+    justify-content: center;
 }
 
 .menu-items .menu-item {
@@ -302,7 +307,7 @@
 }
 
 .menu-items li:hover .mega-menu {
-    top: 40.2px;
+    top: 100%;
     opacity: 1;
     visibility: visible;
     transition: all 0.3s ease;
@@ -459,9 +464,7 @@
     .menu-navbar {
         height: 64px;
     }
-}
 
-@media(max-width: 992px) {
     .mobile-nav .dropdown-menu {
         left: 50% !important;
         transform: translateX(-50%);

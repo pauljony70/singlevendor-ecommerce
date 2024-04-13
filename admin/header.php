@@ -316,7 +316,7 @@ Author URL: https://github.com/pauljony70
 
               <li>
                 <a href="category.php">
-                  <i class="fa-solid fa-list"></i>
+                  <i class="fa-solid fa-bars-staggered"></i>
                   <span>Category</span>
                 </a>
               </li>

@@ -8,86 +8,19 @@
 
 <header class="navbar-light navbar-sticky" style="position: sticky; top: -1px; z-index: 1000;">
     <!-- Part 1 Navbar (Logo, Search, Cart and User Details) -->
-    <nav class="navbar menu-navbar navbar-collapse navbar-expand-lg bg-white">
+    <nav class="navbar menu-navbar navbar-expand-lg bg-white">
         <div class="container">
             <div class="row w-100">
-                <div class="col-8 d-flex align-items-center">
-                    <div class="d-block d-lg-none">
+                <div class="col-4">
+                    <div class="d-flex d-lg-none align-items-center h-100">
                         <a class="ms-3 text-dark" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSidebar" aria-controls="offcanvasSidebar">
                             <i class="fa-solid fa-bars"></i>
                         </a>
                     </div>
-                    <a class="navbar-brand m-0 py-0 text-center" href="<?= base_url() ?>">
-                        <img src="<?= base_url('assets/images/logo.png') ?>" alt="<?= get_store_settings('store_name') ?>" srcset="<?= base_url('assets/images/logo-200x200.png') ?> 200w" sizes="(min-width: 992px) 85px, 50px">
-                    </a>
-                    <ul class="d-none d-lg-flex menu-items mb-0 px-0 h-100 w-100 justify-content-start">
-                        <?php
-                        $maincats = array_slice($header_cat, 0, 4);
-                        foreach ($maincats as $maincat) : ?>
-                            <li class="d-flex align-items-center menu-li h-100">
-                                <a href="<?= base_url('category/' . $maincat['cat_name'] . '/' . $maincat['cat_id']) ?>" class="d-flex align-items-center justify-content-center menu-item h-100 w-100">
-                                    <?= $maincat['cat_name'] ?>
-                                </a>
-                                <?php if (!empty($maincat['subcat_1'])) : ?>
-                                    <div class="mega-menu">
-                                        <div class="content box-shadow-0">
-                                            <div class="container content">
-                                                <?php for ($i = 0; $i < 4; $i++) : ?>
-                                                    <div class="col px-2 py-4">
-                                                        <section>
-                                                            <?php if (!empty($maincat['subcat_1'][$i])) : ?>
-                                                                <a href="<?= base_url('category/' . $maincat['subcat_1'][$i]['cat_name'] . '/' . $maincat['subcat_1'][$i]['cat_id']) ?>" class="item-heading">
-                                                                    <?= $maincat['subcat_1'][$i]['cat_name'] ?>
-                                                                </a>
-                                                                <?php if (count($maincat['subcat_1'][$i]['subsubcat_2']) > 0) : ?>
-                                                                    <ul class="mega-links px-0">
-                                                                        <?php foreach ($maincat['subcat_1'][$i]['subsubcat_2'] as $key => $subsubcat_2) : ?>
-                                                                            <?php
-                                                                            // if ($key > 4) :
-                                                                            //     break;
-                                                                            // endif;
-                                                                            ?>
-                                                                            <li>
-                                                                                <a href="<?= base_url('category/' . $subsubcat_2['cat_name'] . '/' . $subsubcat_2['cat_id']) ?>">
-                                                                                    <?= $subsubcat_2['cat_name'] ?>
-                                                                                </a>
-                                                                            </li>
-                                                                        <?php endforeach; ?>
-                                                                    </ul>
-                                                                    <!--  <a class="view-all" href="<?= base_url('sub_category/' . $maincat['subcat_1'][$i]['cat_id']) ?>" href="">view all <i class="fa-solid fa-arrow-right"></i></a> -->
-                                                                <?php endif; ?>
-                                                            <?php endif; ?>
-                                                        </section>
-                                                    </div>
-                                                <?php endfor; ?>
-                                            </div>
-                                        </div>
-                                    </div>
-                                <?php endif; ?>
-                            </li>
-                        <?php endforeach; ?>
-                        <?php foreach ($custom_navigations as $custom_navigation) : ?>
-                            <?php if (count($custom_navigation['navigation_data']) === 4) : ?>
-                                <li class="d-flex align-items-center menu-li h-100">
-                                    <a href="#cutom-nav-<?= $custom_navigation['id'] ?>" class="d-flex align-items-center justify-content-center menu-item h-100 w-100"><?= $custom_navigation['name'] ?></a>
-                                    <div class="mega-menu">
-                                        <div class="content custom-banner-content box-shadow-0">
-                                            <div class="container content">
-                                                <?php foreach ($custom_navigation['navigation_data'] as $navigation_data) : ?>
-                                                    <?php if ($navigation_data['banner']) : ?>
-                                                        <a href="<?= base_url('navigation-products/' . $custom_navigation['name'] . '/' . $navigation_data['id']) ?>" class="col px-2 py-4">
-                                                            <img src="<?= MEDIA_URL . $navigation_data['banner'] ?>" alt="Collection" srcset="" class="w-100 h-100">
-                                                        </a>
-                                                    <?php endif; ?>
-                                                <?php endforeach ?>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            <?php endif ?>
-                        <?php endforeach; ?>
-                    </ul>
                 </div>
+                <a class="col-4 navbar-brand m-0 py-0 text-center" href="<?= base_url() ?>">
+                    <img src="<?= base_url('assets/images/logo.png') ?>" alt="<?= get_store_settings('store_name') ?>" srcset="<?= base_url('assets/images/logo-200x200.png') ?> 200w" sizes="(min-width: 992px) 85px, 50px">
+                </a>
                 <div class="col-4 d-flex align-items-center justify-content-end">
                     <a href="javascript:void(0)" title="Search">
                         <i class="fa-solid cross-btn fa-magnifying-glass"></i>
@@ -132,6 +65,81 @@
                         </div>
                     </div>
                 </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Part 2 Navbar (Categories) -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm bg-white category-navbar py-0">
+        <div class="container position-relative">
+            <div class="navbar-collapse w-100 collapse" id="navbarCollapse2">
+                <ul class="menu-items mb-0 px-0 w-100 justify-content-center">
+                    <?php
+                    $maincats = array_slice($header_cat, 0, 4);
+                    foreach ($maincats as $maincat) : ?>
+                        <li class="menu-li">
+                            <a href="<?= base_url('category/' . $maincat['cat_name'] . '/' . $maincat['cat_id']) ?>" class="menu-item pb-3">
+                                <?= $maincat['cat_name'] ?>
+                            </a>
+                            <?php if (!empty($maincat['subcat_1'])) : ?>
+                                <div class="mega-menu">
+                                    <div class="content box-shadow-0">
+                                        <div class="container content">
+                                            <?php for ($i = 0; $i < 4; $i++) : ?>
+                                                <div class="col px-2 py-4">
+                                                    <section>
+                                                        <?php if (!empty($maincat['subcat_1'][$i])) : ?>
+                                                            <a href="<?= base_url('category/' . $maincat['subcat_1'][$i]['cat_name'] . '/' . $maincat['subcat_1'][$i]['cat_id']) ?>" class="item-heading">
+                                                                <?= $maincat['subcat_1'][$i]['cat_name'] ?>
+                                                            </a>
+                                                            <?php if (count($maincat['subcat_1'][$i]['subsubcat_2']) > 0) : ?>
+                                                                <ul class="mega-links px-0">
+                                                                    <?php foreach ($maincat['subcat_1'][$i]['subsubcat_2'] as $key => $subsubcat_2) : ?>
+                                                                        <?php
+                                                                        // if ($key > 4) :
+                                                                        //     break;
+                                                                        // endif;
+                                                                        ?>
+                                                                        <li>
+                                                                            <a href="<?= base_url('category/' . $subsubcat_2['cat_name'] . '/' . $subsubcat_2['cat_id']) ?>">
+                                                                                <?= $subsubcat_2['cat_name'] ?>
+                                                                            </a>
+                                                                        </li>
+                                                                    <?php endforeach; ?>
+                                                                </ul>
+                                                                <!--  <a class="view-all" href="<?= base_url('sub_category/' . $maincat['subcat_1'][$i]['cat_id']) ?>" href="">view all <i class="fa-solid fa-arrow-right"></i></a> -->
+                                                            <?php endif; ?>
+                                                        <?php endif; ?>
+                                                    </section>
+                                                </div>
+                                            <?php endfor; ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            <?php endif; ?>
+                        </li>
+                    <?php endforeach; ?>
+                    <?php foreach ($custom_navigations as $custom_navigation) : ?>
+                        <?php if (count($custom_navigation['navigation_data']) === 4) : ?>
+                            <li class="menu-li">
+                                <a href="#cutom-nav-<?= $custom_navigation['id'] ?>" class="menu-item pb-3"><?= $custom_navigation['name'] ?></a>
+                                <div class="mega-menu">
+                                    <div class="content custom-banner-content box-shadow-0">
+                                        <div class="container content">
+                                            <?php foreach ($custom_navigation['navigation_data'] as $navigation_data) : ?>
+                                                <?php if ($navigation_data['banner']) : ?>
+                                                    <a href="<?= base_url('navigation-products/' . $custom_navigation['name'] . '/' . $navigation_data['id']) ?>" class="col px-2 py-4">
+                                                        <img src="<?= MEDIA_URL . $navigation_data['banner'] ?>" alt="Collection" srcset="" class="w-100 h-100">
+                                                    </a>
+                                                <?php endif; ?>
+                                            <?php endforeach ?>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                        <?php endif ?>
+                    <?php endforeach; ?>
+                </ul>
             </div>
         </div>
     </nav>

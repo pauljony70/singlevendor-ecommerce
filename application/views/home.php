@@ -21,10 +21,10 @@
 		  	Top full height video
 		  	---------------------------------------------------
 		-->
-		<div class="top-video mb-5">
+		<div class="top-video mb-3 mb-md-5">
 			<div class="">
 				<a href="<?= $home_banners['top_video'][0]['link'] ?>">
-					<img src="<?= base_url('assets/images/banner.jpg') ?>" alt="Banner" class="w-100 img-fluid">
+					<img src="<?= base_url('assets/images/banner3.jpg') ?>" alt="Banner" class="w-100 img-fluid">
 				</a>
 			</div>
 		</div>

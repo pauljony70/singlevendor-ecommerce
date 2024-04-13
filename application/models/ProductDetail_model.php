@@ -474,6 +474,7 @@ class ProductDetail_model extends CI_Model
 			->join('category', 'category.cat_id = product.prod_cat_id')
 			->join('brand', 'brand.brand_id = product.prod_brand_id')
 			->order_by('product.prod_id', 'desc')
+			->limit(8)
 			->get('productdetails')
 			->result_array();
 		foreach ($products as &$product) {

@@ -30,8 +30,8 @@
             </div>
         </div>
     </div>
-    <div class="footer-logo d-flex align-items-center justify-content-center h-100 w-100 bg-secondary py-2">
-        <img src="<?= base_url('assets/images/logo.png') ?>" alt="<?= get_store_settings('store_name') ?>" srcset="<?= base_url('assets/images/logo-108x108.png') ?> 108w" sizes="(min-width: 1000px) 54px, 50px">
+    <div class="footer-logo d-flex align-items-center justify-content-center h-100 w-100 bg-secondary">
+    <img src="<?= base_url('assets/images/logo.png') ?>" alt="<?= get_store_settings('store_name') ?>" srcset="<?= base_url('assets/images/logo-200x200.png') ?> 200w" sizes="(min-width: 992px) 85px, 50px">
     </div>
     <div class="footer-links">
         <div class="container">

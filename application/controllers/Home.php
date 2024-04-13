@@ -13,16 +13,16 @@ class Home extends MY_Controller
 
 	public function index()
 	{
-		$this->data['home_banners'] = $this->home_model->getHomeBanners();
-		$this->load->view('index.php', $this->data);
-	}
-
-	public function home()
-	{
 		$this->load->model('ProductDetail_model');
 		$this->data['home_banners'] = $this->home_model->getHomeBanners();
 		$this->data['new_arrivals'] = $this->ProductDetail_model->getNewArrivals();
 		$this->load->view('home.php', $this->data);
+	}
+
+	public function home()
+	{
+		$this->data['home_banners'] = $this->home_model->getHomeBanners();
+		$this->load->view('index.php', $this->data);
 	}
 
 	public function frame()
@@ -163,7 +163,7 @@ class Home extends MY_Controller
 	{
 		$this->load->view('return-and-exchange-policy', $this->data);  // ye view/website folder hai
 	}
-	
+
 	public function privacyPolicy()
 	{
 		$this->load->view('privacy-policy', $this->data);

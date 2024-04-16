@@ -7,7 +7,7 @@ This is a single vendor eCommerce project developed using CodeIgniter 3.
 1. Clone the repository to your local machine:
 
     ```bash
-    git clone [repository_url]
+    git clone https://github.com/pauljony70/singlevendor-ecommerce.git
     ```
 
 2. Import the SQL database:

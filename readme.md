@@ -48,6 +48,8 @@ To access the admin panel, use the following credentials:
 - Email: admin@example.com
 - Password: admin123
 
+Access the admin panel [here](http://localhost/singlevendor-ecommerce/admin).
+
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.

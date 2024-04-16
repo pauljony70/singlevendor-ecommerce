@@ -89,7 +89,5 @@ defined('LIMIT')      OR define('LIMIT', 10); // Result limit
 defined('MOBILE')      OR define('MOBILE', '200-200'); // image size for mobile
 defined('DESKTOP')      OR define('DESKTOP', '600-600'); // image size for desktop
 defined('PLACE_ORDER_TEMP')      OR define('PLACE_ORDER_TEMP', 3); // place order email template id
-defined('SITE_URL')      OR define('SITE_URL', 'http://localhost/reshamdhaage/'); // 
-defined('MEDIA_URL')      OR define('MEDIA_URL', 'http://localhost/reshamdhaage/media/'); // 
-// defined('SITE_URL')      OR define('SITE_URL', 'http://reshamdhaage.com/'); // 
-// defined('MEDIA_URL')      OR define('MEDIA_URL', 'http://reshamdhaage.com/media/'); // 
+defined('SITE_URL')      OR define('SITE_URL', 'http://localhost/singlevendor-ecommerce/'); // 
+defined('MEDIA_URL')      OR define('MEDIA_URL', 'http://localhost/singlevendor-ecommerce/media/'); // 

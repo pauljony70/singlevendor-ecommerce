@@ -34,7 +34,7 @@
                 </div>
                 <div class="col-12 col-lg-9">
                     <?php include('includes/sidebarmobile.php') ?>
-                    <h1 class="font-family-lora mb-4 mb-md-5">Add New Address</h1>
+                    <h1 class="font-family-lora mb-4 mb-md-5">Edit Address</h1>
 
                     <form action="#" method="post" id="addressForm" class="mb-5">
                         <div class="row mb-4">

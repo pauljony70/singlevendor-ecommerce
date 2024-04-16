@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Jan 19, 2024 at 05:57 AM
+-- Generation Time: Apr 16, 2024 at 04:36 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `reshamdhaage`
+-- Database: `singlevendor`
 --
 
 -- --------------------------------------------------------
@@ -29,24 +29,18 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `address` (
   `user_id` int(11) NOT NULL,
-  `addressarray` text NOT NULL,
+  `addressarray` mediumtext NOT NULL,
   `defaultaddress` int(11) NOT NULL,
-  `org_addressarray` text NOT NULL,
-  `pincode` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `org_addressarray` mediumtext DEFAULT NULL,
+  `pincode` int(11) DEFAULT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `address`
 --
 
 INSERT INTO `address` (`user_id`, `addressarray`, `defaultaddress`, `org_addressarray`, `pincode`) VALUES
-(10001, '[{\"address_id\":1,\"fullname\":\"chirag\",\"email\":\"chiragsavaliya67@gmail.com\",\"address1\":\"vrachha\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"395010\",\"phone\":\"8200721023\"},{\"address_id\":2,\"fullname\":\"cscs\",\"email\":\"cscs@gmail.com\",\"address1\":\"cs\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"369855\",\"phone\":\"9865365544\"},{\"address_id\":3,\"fullname\":\"cks\",\"email\":\"cks@gmail.com\",\"address1\":\"vrachha\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"110030\",\"phone\":\"9659656333\"},{\"address_id\":4,\"fullname\":\"Yuvraj \",\"email\":\"yuvi384756@gmail.com\",\"address1\":\"bhoapl\",\"address2\":\"bhopal\",\"landmark\":\"\",\"city\":\"hopal\",\"state\":\"madhya pradesh\",\"pincode\":\"462420\",\"phone\":\"2345678901\"},{\"address_id\":5,\"fullname\":\"Yuvraj \",\"email\":\"yuvi384756@gmail.com\",\"address1\":\"bhoapl\",\"address2\":\"bhopal\",\"landmark\":\"\",\"city\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"pincode\":\"462420\",\"phone\":\"2345678901\"},{\"address_id\":6,\"fullname\":\"Yuvraj \",\"email\":\"yuvrajsinghsolanki2406@gmail.com\",\"address1\":\"bhoapl\",\"address2\":\"bhopal\",\"landmark\":\"\",\"city\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"pincode\":\"462420\",\"phone\":\"2345678901\"}]', 6, '[{\"address_id\":1,\"fullname\":\"chirag\",\"email\":\"chiragsavaliya67@gmail.com\",\"address1\":\"vrachha\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"395010\",\"phone\":\"8200721023\"},{\"address_id\":2,\"fullname\":\"cscs\",\"email\":\"cscs@gmail.com\",\"address1\":\"cs\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"369855\",\"phone\":\"9865365544\"},{\"address_id\":3,\"fullname\":\"cks\",\"email\":\"cks@gmail.com\",\"address1\":\"vrachha\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"110030\",\"phone\":\"9659656333\"},{\"address_id\":4,\"fullname\":\"Yuvraj \",\"email\":\"yuvi384756@gmail.com\",\"address1\":\"bhoapl\",\"address2\":\"bhopal\",\"landmark\":\"\",\"city\":\"hopal\",\"state\":\"madhya pradesh\",\"pincode\":\"462420\",\"phone\":\"2345678901\"},{\"address_id\":5,\"fullname\":\"Yuvraj \",\"email\":\"yuvi384756@gmail.com\",\"address1\":\"bhoapl\",\"address2\":\"bhopal\",\"landmark\":\"\",\"city\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"pincode\":\"462420\",\"phone\":\"2345678901\"},{\"address_id\":6,\"fullname\":\"Yuvraj \",\"email\":\"yuvrajsinghsolanki2406@gmail.com\",\"address1\":\"bhoapl\",\"address2\":\"bhopal\",\"landmark\":\"\",\"city\":\"Bhopal\",\"state\":\"Madhya Pradesh\",\"pincode\":\"462420\",\"phone\":\"2345678901\"}]', 0),
-(10002, '[{\"address_id\":1,\"fullname\":\"kamal\",\"email\":\"kamal.bunkar07@gmail.com\",\"address1\":\"flat 03\",\"address2\":\"street abc\",\"landmark\":\"near ground\",\"city\":\"dehradun\",\"state\":\"UK\",\"pincode\":\"\",\"phone\":\"9144040888\"}]', 1, '[{\"address_id\":1,\"fullname\":\"kamal\",\"email\":\"kamal.bunkar07@gmail.com\",\"address1\":\"flat 03\",\"address2\":\"street abc\",\"landmark\":\"near ground\",\"city\":\"dehradun\",\"state\":\"UK\",\"pincode\":\"\",\"phone\":\"9144040888\"}]', 0),
-(10003, '[{\"address_id\":1,\"fullname\":\"bapan\",\"email\":\"amitkumar7361@gmail.com\",\"address1\":\"hsjjs\",\"address2\":\"\",\"landmark\":\"jzjsj\",\"city\":\"sjjs\",\"state\":\"delhi\",\"pincode\":\"\",\"phone\":\"9717999121\"},{\"address_id\":2,\"fullname\":\"dhhff\",\"email\":\"amitkumar7361@gmail.com\",\"address1\":\"dgc\",\"address2\":\"dgg\",\"landmark\":\"dfg\",\"city\":\"fh\",\"state\":\"ft\",\"pincode\":\"110030\",\"phone\":\"8888888888\"},{\"address_id\":3,\"fullname\":\"xgh\",\"email\":\"\",\"address1\":\"xgg\",\"address2\":\"dgg\",\"landmark\":\"dg\",\"city\":\"ft\",\"state\":\"fy\",\"pincode\":\"110030\",\"phone\":\"8888888888\"},{\"address_id\":4,\"fullname\":\"Dgg\",\"email\":\"amitkumar7361@gmail.com\",\"address1\":\"Saidulajab Gali No 3 F Flor A 49 Near Sabji Mandi\",\"address2\":\"No\",\"landmark\":\"\",\"city\":\"New Delhi\",\"state\":\"Delhi\",\"pincode\":\"110030\",\"phone\":\"9717999121\"}]', 4, '[{\"address_id\":1,\"fullname\":\"bapan\",\"email\":\"amitkumar7361@gmail.com\",\"address1\":\"hsjjs\",\"address2\":\"\",\"landmark\":\"jzjsj\",\"city\":\"sjjs\",\"state\":\"delhi\",\"pincode\":\"\",\"phone\":\"9717999121\"},{\"address_id\":2,\"fullname\":\"dhhff\",\"email\":\"amitkumar7361@gmail.com\",\"address1\":\"dgc\",\"address2\":\"dgg\",\"landmark\":\"dfg\",\"city\":\"fh\",\"state\":\"ft\",\"pincode\":\"110030\",\"phone\":\"8888888888\"},{\"address_id\":3,\"fullname\":\"xgh\",\"email\":\"\",\"address1\":\"xgg\",\"address2\":\"dgg\",\"landmark\":\"dg\",\"city\":\"ft\",\"state\":\"fy\",\"pincode\":\"110030\",\"phone\":\"8888888888\"},{\"address_id\":4,\"fullname\":\"Dgg\",\"email\":\"amitkumar7361@gmail.com\",\"address1\":\"Saidulajab Gali No 3 F Flor A 49 Near Sabji Mandi\",\"address2\":\"No\",\"landmark\":\"\",\"city\":\"New Delhi\",\"state\":\"Delhi\",\"pincode\":\"110030\",\"phone\":\"9717999121\"}]', 110030),
-(10004, '[{\"address_id\":1,\"fullname\":\"kamal\",\"email\":\"kamal.bunkar07@gmail.com\",\"address1\":\"flat ih\",\"address2\":\"street gh\",\"landmark\":\"\",\"city\":\"Delhi\",\"state\":\"Delhi\",\"pincode\":\"110005\",\"phone\":\"9144040888\"},{\"address_id\":2,\"fullname\":\"kk\",\"email\":\"\",\"address1\":\"ghh\",\"address2\":\"gh\",\"landmark\":\"hhhj\",\"city\":\"ghh\",\"state\":\"hj\",\"pincode\":\"110030\",\"phone\":\"9144040888\"}]', 1, '[{\"address_id\":1,\"fullname\":\"kamal\",\"email\":\"kamal.bunkar07@gmail.com\",\"address1\":\"flat ih\",\"address2\":\"street gh\",\"landmark\":\"\",\"city\":\"Delhi\",\"state\":\"Delhi\",\"pincode\":\"110005\",\"phone\":\"9144040888\"},{\"address_id\":2,\"fullname\":\"kk\",\"email\":\"\",\"address1\":\"ghh\",\"address2\":\"gh\",\"landmark\":\"hhhj\",\"city\":\"ghh\",\"state\":\"hj\",\"pincode\":\"110030\",\"phone\":\"9144040888\"}]', 0),
-(10005, '[{\"address_id\":1,\"fullname\":\"ccc\",\"email\":\"ccc@bmail.com\",\"address1\":\"vrcha\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"110030\",\"phone\":\"9856325666\"},{\"address_id\":2,\"fullname\":\"chirag\",\"email\":\"\",\"address1\":\"vrachha\",\"address2\":\"punagam\",\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"110030\",\"phone\":\"9856325566\"}]', 2, '[{\"address_id\":1,\"fullname\":\"ccc\",\"email\":\"ccc@bmail.com\",\"address1\":\"vrcha\",\"address2\":null,\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"110030\",\"phone\":\"9856325666\"},{\"address_id\":2,\"fullname\":\"chirag\",\"email\":\"\",\"address1\":\"vrachha\",\"address2\":\"punagam\",\"landmark\":\"\",\"city\":\"surat\",\"state\":\"gujrat\",\"pincode\":\"110030\",\"phone\":\"9856325566\"}]', 110030),
-(10009, '[{\"address_id\":1,\"fullname\":\"Rintu sir \",\"email\":\"\",\"address1\":\"H.N-411, B5 3rd floor \",\"address2\":\"Amar Singh Appartment saidulajab \",\"landmark\":\"Choudary bartan bhandar\",\"city\":\"saidulajab \",\"state\":\"New Delhi \",\"pincode\":\"110030\",\"phone\":\"6205862843\"}]', 1, '[{\"address_id\":1,\"fullname\":\"Rintu sir \",\"email\":\"\",\"address1\":\"H.N-411, B5 3rd floor \",\"address2\":\"Amar Singh Appartment saidulajab \",\"landmark\":\"Choudary bartan bhandar\",\"city\":\"saidulajab \",\"state\":\"New Delhi \",\"pincode\":\"110030\",\"phone\":\"6205862843\"}]', 110030),
-(10011, '[{\"address_id\":1,\"fullname\":\"Manoj Prasad Sah \",\"email\":\"\",\"address1\":\"House no.581\",\"address2\":\"Gali no.1,Near Mother Dairy, Opposite Raj Super store \",\"landmark\":\"Saidullajab \",\"city\":\"New Delhi \",\"state\":\"India \",\"pincode\":\"110030\",\"phone\":\"8851937101\"}]', 1, '[{\"address_id\":1,\"fullname\":\"Manoj Prasad Sah \",\"email\":\"\",\"address1\":\"House no.581\",\"address2\":\"Gali no.1,Near Mother Dairy, Opposite Raj Super store \",\"landmark\":\"Saidullajab \",\"city\":\"New Delhi \",\"state\":\"India \",\"pincode\":\"110030\",\"phone\":\"8851937101\"}]', 110030);
+(10003, '[{\"address_id\":1,\"fullname\":\"Jony Paul\",\"email\":\"paul.jony0606@gmail.com\",\"phone\":\"9874627973\",\"address\":\"Ichapur Bidhanpally West\",\"pincode\":\"743144\",\"state_id\":\"36\",\"state\":\"West Bengal\",\"city_id\":\"1475\",\"city\":\"Kolkata\"}]', 1, NULL, NULL);
 
 -- --------------------------------------------------------
 
@@ -57,9 +51,9 @@ INSERT INTO `address` (`user_id`, `addressarray`, `defaultaddress`, `org_address
 CREATE TABLE `brand` (
   `brand_id` int(11) NOT NULL,
   `brand_name` varchar(100) NOT NULL,
-  `brand_img` text NOT NULL,
+  `brand_img` mediumtext NOT NULL,
   `brand_order` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `brand`
@@ -197,16 +191,17 @@ INSERT INTO `brand` (`brand_id`, `brand_name`, `brand_img`, `brand_order`) VALUE
 
 CREATE TABLE `cartdetails` (
   `user_id` int(11) NOT NULL,
-  `prod_id` text NOT NULL,
-  `qoute_id` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `prod_id` mediumtext NOT NULL,
+  `qoute_id` int(11) NOT NULL DEFAULT 0
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `cartdetails`
 --
 
 INSERT INTO `cartdetails` (`user_id`, `prod_id`, `qoute_id`) VALUES
-(10003, '[{\"index\":0,\"prod_id\":\"2\",\"qty\":\"1\",\"config_attr\":\"[{\\\"attr_id\\\":\\\"5\\\",\\\"attr_name\\\":\\\"Size\\\",\\\"attr_value\\\":\\\"M\\\"}]\",\"date\":\"2024-01-19\"}]', 0);
+(10005, '[{\"index\":0,\"prod_id\":\"2\",\"qty\":\"1\",\"config_attr\":\"[{\\\"attr_id\\\":\\\"5\\\",\\\"attr_name\\\":\\\"Size\\\",\\\"attr_value\\\":\\\"M\\\"}]\",\"date\":\"2024-02-27\"},{\"index\":1,\"prod_id\":\"3\",\"qty\":\"1\",\"config_attr\":\"[{\\\"attr_id\\\":\\\"5\\\",\\\"attr_name\\\":\\\"Size\\\",\\\"attr_value\\\":\\\"XL\\\"}]\",\"date\":\"2024-02-27\"}]', 0),
+(10003, '[{\"index\":0,\"prod_id\":\"3\",\"qty\":\"1\",\"config_attr\":\"[{\\\"attr_id\\\":\\\"5\\\",\\\"attr_name\\\":\\\"Size\\\",\\\"attr_value\\\":\\\"XL\\\"}]\",\"date\":\"2024-02-27\"}]', 0);
 
 -- --------------------------------------------------------
 
@@ -218,10 +213,10 @@ CREATE TABLE `category` (
   `cat_id` int(11) NOT NULL,
   `cat_name` varchar(80) NOT NULL,
   `cat_name_ar` varchar(80) DEFAULT NULL,
-  `cat_img` text NOT NULL,
+  `cat_img` mediumtext NOT NULL,
   `parent_id` int(11) NOT NULL,
   `cat_order` int(11) DEFAULT 0
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `category`
@@ -273,7 +268,7 @@ CREATE TABLE `city` (
   `city_id` int(11) NOT NULL,
   `city_name` varchar(80) NOT NULL,
   `state_code` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `city`
@@ -1796,13 +1791,64 @@ INSERT INTO `city` (`city_id`, `city_name`, `state_code`) VALUES
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `custom_navigations`
+--
+
+CREATE TABLE `custom_navigations` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `custom_navigations`
+--
+
+INSERT INTO `custom_navigations` (`id`, `name`, `created_at`, `updated_at`) VALUES
+(9, 'Blog', '2024-02-01 10:31:06', '2024-02-01 10:31:06'),
+(12, 'Collections', '2024-02-02 21:09:12', '2024-02-02 21:09:12'),
+(14, 'End Of Session Sale', '2024-03-18 08:27:38', '2024-03-18 08:27:38');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `custom_navigation_products`
+--
+
+CREATE TABLE `custom_navigation_products` (
+  `id` int(11) NOT NULL,
+  `navigation_id` int(11) NOT NULL,
+  `banner` varchar(255) DEFAULT NULL,
+  `products` longtext DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_id` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `custom_navigation_products`
+--
+
+INSERT INTO `custom_navigation_products` (`id`, `navigation_id`, `banner`, `products`, `created_at`, `updated_id`) VALUES
+(19, 12, '2024/02/03/4901ee183604d0403922ed96b0fd8ee0_1706908200.webp', '{\"0\":\"1\",\"1\":\"4\",\"4\":\"3\",\"5\":\"2\",\"6\":\"5\"}', '2024-02-02 21:09:12', '2024-02-03 07:27:20'),
+(20, 12, '2024/02/03/cb51691d1ec76113b135b947e7958a0e_1706908202.webp', '[\"5\",\"4\",\"3\",\"2\",\"1\"]', '2024-02-02 21:09:12', '2024-02-02 21:10:02'),
+(21, 12, '2024/02/03/42cb29db3cafb535d33fdf2a55e29862_1706908204.webp', '[\"5\",\"4\",\"2\",\"1\",\"3\"]', '2024-02-02 21:09:12', '2024-02-02 21:10:04'),
+(22, 12, '2024/02/03/f6deb7fc9add23e424d9506e0c5f24c2_1706908206.webp', '[\"5\",\"4\",\"3\",\"2\"]', '2024-02-02 21:09:12', '2024-02-02 21:10:06'),
+(27, 14, NULL, '[\"6\",\"7\"]', '2024-03-18 08:27:38', '2024-03-18 08:27:54'),
+(28, 14, NULL, NULL, '2024-03-18 08:27:38', '2024-03-18 08:27:38'),
+(29, 14, NULL, NULL, '2024-03-18 08:27:38', '2024-03-18 08:27:38'),
+(30, 14, NULL, NULL, '2024-03-18 08:27:38', '2024-03-18 08:27:38');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `deliverytime`
 --
 
 CREATE TABLE `deliverytime` (
   `sno` int(11) NOT NULL,
   `timevalue` varchar(50) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `deliverytime`
@@ -1822,7 +1868,7 @@ CREATE TABLE `discountprod` (
   `prodid` int(11) NOT NULL,
   `prodname` varchar(300) NOT NULL,
   `orderid` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1840,8 +1886,8 @@ CREATE TABLE `homecat` (
   `clicktype` int(11) NOT NULL,
   `prod_id` int(11) NOT NULL,
   `prod_name` varchar(300) NOT NULL,
-  `img_url` text NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `img_url` mediumtext NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1855,14 +1901,14 @@ CREATE TABLE `homepage_banner` (
   `image` text NOT NULL,
   `link` text NOT NULL,
   `section` varchar(100) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `homepage_banner`
 --
 
 INSERT INTO `homepage_banner` (`id`, `type`, `image`, `link`, `section`) VALUES
-(1, 'topbar', 'AND It\'s a wrap 2023', 'https://reshamdhaage.com/', 'topbar_section'),
+(1, 'topbar', 'AND It\'s a wrap 2024', 'https://reshamdhaage.com/', 'topbar_section'),
 (2, 'top_video', '2023/12/09/d32ab901b28d2428846717777a933e58_1702115912.mp4', 'https://reshamdhaage.com/', 'top_video'),
 (3, 'top_link_1', 'New Arrivals', 'https://reshamdhaage.com/', 'top_link_section'),
 (4, 'top_link_2', 'AND It\'s a wrap 2023', 'https://reshamdhaage.com/', 'top_link_section'),
@@ -1890,11 +1936,11 @@ INSERT INTO `homepage_banner` (`id`, `type`, `image`, `link`, `section`) VALUES
 
 CREATE TABLE `home_banner` (
   `home_banner_id` int(11) NOT NULL,
-  `title` text NOT NULL,
-  `description` text NOT NULL,
-  `img_url` text NOT NULL,
-  `datetime` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+  `title` mediumtext NOT NULL,
+  `description` mediumtext NOT NULL,
+  `img_url` mediumtext NOT NULL,
+  `datetime` mediumtext NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1909,7 +1955,7 @@ CREATE TABLE `home_custom_banner` (
   `clicktype` int(11) NOT NULL,
   `banner_for` varchar(100) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1920,14 +1966,14 @@ CREATE TABLE `home_custom_banner` (
 CREATE TABLE `knet_payment` (
   `sno` int(11) NOT NULL,
   `date` datetime NOT NULL DEFAULT current_timestamp(),
-  `amount` text NOT NULL,
-  `order_no` text NOT NULL,
-  `result` text NOT NULL,
-  `gateway_response` text NOT NULL,
-  `reference_number` text NOT NULL,
-  `customer_email` text NOT NULL,
-  `cmp_res` text NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `amount` mediumtext NOT NULL,
+  `order_no` mediumtext NOT NULL,
+  `result` mediumtext NOT NULL,
+  `gateway_response` mediumtext NOT NULL,
+  `reference_number` mediumtext NOT NULL,
+  `customer_email` mediumtext NOT NULL,
+  `cmp_res` mediumtext NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1940,7 +1986,7 @@ CREATE TABLE `latestprod` (
   `prodid` int(11) NOT NULL,
   `prodname` varchar(300) NOT NULL,
   `orderid` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1950,9 +1996,9 @@ CREATE TABLE `latestprod` (
 
 CREATE TABLE `layoutsection` (
   `sno` int(11) NOT NULL,
-  `name` text NOT NULL,
-  `type` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+  `name` mediumtext NOT NULL,
+  `type` mediumtext NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `layoutsection`
@@ -1985,7 +2031,7 @@ CREATE TABLE `notifyme` (
   `createby` datetime NOT NULL,
   `updateby` datetime NOT NULL,
   `action` varchar(30) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -1998,7 +2044,7 @@ CREATE TABLE `offerzone` (
   `prodid` int(11) NOT NULL,
   `prodname` varchar(300) NOT NULL,
   `orderid` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -2011,38 +2057,40 @@ CREATE TABLE `orders` (
   `order_id` varchar(30) NOT NULL,
   `user_id` int(11) NOT NULL,
   `status` varchar(20) NOT NULL,
-  `prod_details` text DEFAULT NULL,
+  `prod_details` mediumtext DEFAULT NULL,
   `address_id` int(11) DEFAULT NULL,
   `customer_name` varchar(255) NOT NULL,
   `customer_email` varchar(255) NOT NULL,
   `customer_phone` varchar(12) NOT NULL,
-  `customer_address` text NOT NULL,
+  `customer_address` mediumtext NOT NULL,
   `customer_city` varchar(255) NOT NULL,
   `customer_state` varchar(255) NOT NULL,
   `customer_pincode` varchar(12) NOT NULL,
   `total_price` float DEFAULT NULL,
-  `payment_orderid` text DEFAULT NULL,
-  `payment_id` text DEFAULT NULL,
+  `payment_orderid` mediumtext DEFAULT NULL,
+  `payment_id` mediumtext DEFAULT NULL,
   `payment_mode` enum('cod','online') DEFAULT NULL,
   `delivery_mode` varchar(20) DEFAULT NULL,
   `qoute_id` int(11) DEFAULT NULL,
   `create_date` datetime NOT NULL DEFAULT current_timestamp(),
   `update_date` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
   `curriername` varchar(100) DEFAULT NULL,
-  `trackid` text DEFAULT NULL,
+  `trackid` mediumtext DEFAULT NULL,
   `deliveryid` varchar(100) DEFAULT NULL,
   `walletcoins` int(11) DEFAULT NULL,
   `discountid` int(11) DEFAULT NULL,
-  `discountvalue` int(11) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `discountvalue` decimal(10,2) NOT NULL DEFAULT 0.00
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `orders`
 --
 
 INSERT INTO `orders` (`sno`, `order_id`, `user_id`, `status`, `prod_details`, `address_id`, `customer_name`, `customer_email`, `customer_phone`, `customer_address`, `customer_city`, `customer_state`, `customer_pincode`, `total_price`, `payment_orderid`, `payment_id`, `payment_mode`, `delivery_mode`, `qoute_id`, `create_date`, `update_date`, `curriername`, `trackid`, `deliveryid`, `walletcoins`, `discountid`, `discountvalue`) VALUES
-(2, '100001', 10003, 'Completed', NULL, NULL, 'Jony Paul', 'paul.jony70@gmail.com', '9874627973', 'KOLKATA', 'Anakapalle', 'Andhra Pradesh', '743144', 3999, NULL, 'Pay12345', 'cod', NULL, NULL, '2024-01-16 03:51:57', '2024-01-18 15:30:37', NULL, NULL, NULL, NULL, NULL, NULL),
-(3, '100002', 10003, 'Placed', NULL, NULL, 'Jony Paul', 'paul.jony70@gmail.com', '9874627973', 'KOLKATA', 'Kolkata', 'West Bengal', '743144', 7998, NULL, 'Pay12345', 'cod', NULL, NULL, '2024-01-17 01:57:43', '2024-01-17 01:57:43', NULL, NULL, NULL, NULL, NULL, NULL);
+(2, '100001', 10003, 'Completed', NULL, NULL, 'Jony Paul', 'paul.jony70@gmail.com', '9874627973', 'KOLKATA', 'Anakapalle', 'Andhra Pradesh', '743144', 3999, NULL, 'Pay12345', 'cod', NULL, NULL, '2024-01-16 03:51:57', '2024-02-26 02:25:16', NULL, NULL, NULL, NULL, NULL, 0.00),
+(3, '100002', 10003, 'Placed', NULL, NULL, 'Jony Paul', 'paul.jony70@gmail.com', '9874627973', 'KOLKATA', 'Kolkata', 'West Bengal', '743144', 7998, NULL, 'Pay12345', 'cod', NULL, NULL, '2024-01-17 01:57:43', '2024-02-26 02:25:19', NULL, NULL, NULL, NULL, NULL, 0.00),
+(30, '100003', 10003, 'Cancelled', NULL, NULL, 'Jony Paul', 'paul.jony0606@gmail.com', '9836872040', 'Ichapur Bidhanpally West', 'Ichapur', 'West Bengal', '743144', 10397, NULL, 'Pay_12345', 'cod', NULL, NULL, '2024-02-07 19:31:47', '2024-02-26 02:25:22', NULL, NULL, NULL, NULL, NULL, 0.00),
+(36, '100004', 10005, 'Dispatch', NULL, NULL, 'kamal bunkar', 'kamal.bunkar07@gmail.com', '9144040888', 'flat o3', 'Bhopal', 'Madhya Pradesh', '462026', 5898, NULL, 'Pay12345', 'cod', NULL, NULL, '2024-02-27 07:42:20', '2024-04-06 20:45:01', NULL, NULL, NULL, NULL, NULL, 0.00);
 
 -- --------------------------------------------------------
 
@@ -2057,8 +2105,8 @@ CREATE TABLE `order_product` (
   `user_id` int(11) NOT NULL,
   `prod_id` int(11) NOT NULL,
   `prod_name` varchar(300) NOT NULL,
-  `prod_img` text NOT NULL,
-  `prod_attr` text DEFAULT NULL,
+  `prod_img` mediumtext NOT NULL,
+  `prod_attr` mediumtext DEFAULT NULL,
   `qty` int(11) NOT NULL,
   `org_qty` int(11) DEFAULT NULL,
   `unit` varchar(30) DEFAULT NULL,
@@ -2071,17 +2119,17 @@ CREATE TABLE `order_product` (
   `total` float NOT NULL,
   `create_date` datetime NOT NULL DEFAULT current_timestamp(),
   `update_date` datetime NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp(),
-  `status` varchar(15) NOT NULL,
-  `status_date` datetime NOT NULL,
+  `status` varchar(15) DEFAULT NULL,
+  `status_date` datetime DEFAULT NULL,
   `refund_amt` int(11) DEFAULT NULL,
   `refund_txnno` varchar(20) DEFAULT NULL,
   `refund_date` datetime DEFAULT NULL,
   `pickup_date` datetime DEFAULT NULL,
   `return_status` int(11) DEFAULT NULL,
-  `return_reason` text DEFAULT NULL,
+  `return_reason` mediumtext DEFAULT NULL,
   `return_updateby` datetime DEFAULT NULL,
   `sellername` varchar(80) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `order_product`
@@ -2090,7 +2138,32 @@ CREATE TABLE `order_product` (
 INSERT INTO `order_product` (`id`, `order_id`, `deliveryid`, `user_id`, `prod_id`, `prod_name`, `prod_img`, `prod_attr`, `qty`, `org_qty`, `unit`, `prod_mrp`, `prod_price`, `cgst`, `sgst`, `igst`, `shipping`, `total`, `create_date`, `update_date`, `status`, `status_date`, `refund_amt`, `refund_txnno`, `refund_date`, `pickup_date`, `return_status`, `return_reason`, `return_updateby`, `sellername`) VALUES
 (2, '100001', NULL, 10003, 1, 'Lune Love Maxi', '[\"2024\\/01\\/18\\/e9837ec0bc56df3e02a43015804fdc01_1705519982.webp\",\"2024\\/01\\/18\\/a47edfd0d648885e2ed8eafaf5896e4e_1705519982.webp\",\"2024\\/01\\/18\\/2f1b6a5f72b3c978a1e9021dffaff1f4_1705519982.webp\"]', '\"\"', 1, NULL, NULL, 3999.00, 3999.00, NULL, NULL, NULL, NULL, 3999, '2024-01-16 03:51:57', '2024-01-18 17:32:07', '', '0000-00-00 00:00:00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (3, '100002', NULL, 10003, 2, 'Abby Printed Dress', '[\"2024\\/01\\/02\\/1918209e48a1c7154e26191bca0c8cf6_1704191275.webp\",\"2024\\/01\\/02\\/aeaf9bfd23490e29699aca0e63dadfd2_1704191275.webp\",\"2024\\/01\\/02\\/4add26187f35060e6e0c88d6b64a31c2_1704191275.webp\"]', '[{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"XL\"}]', 1, NULL, NULL, 3999.00, 1999.00, NULL, NULL, NULL, NULL, 0, '2024-01-17 01:57:43', '2024-01-18 16:01:44', '', '0000-00-00 00:00:00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(4, '100002', NULL, 10003, 3, 'Oasis Dress', '[\"2024\\/01\\/02\\/3bc38a9998162e21ed0489aacbe866fd_1704191651.webp\",\"2024\\/01\\/02\\/7173b305fce83b1d1a045f0af1be6a82_1704191651.webp\",\"2024\\/01\\/02\\/48b99d9b9797dcf24596e3938959522f_1704191651.webp\"]', '[{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"XL\"}]', 1, NULL, NULL, 3999.00, 3999.00, NULL, NULL, NULL, NULL, 3999, '2024-01-17 01:57:43', '2024-01-17 02:47:42', '', '0000-00-00 00:00:00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(4, '100002', NULL, 10003, 3, 'Oasis Dress', '[\"2024\\/01\\/02\\/3bc38a9998162e21ed0489aacbe866fd_1704191651.webp\",\"2024\\/01\\/02\\/7173b305fce83b1d1a045f0af1be6a82_1704191651.webp\",\"2024\\/01\\/02\\/48b99d9b9797dcf24596e3938959522f_1704191651.webp\"]', '[{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"XL\"}]', 1, NULL, NULL, 3999.00, 3999.00, NULL, NULL, NULL, NULL, 3999, '2024-01-17 01:57:43', '2024-01-17 02:47:42', '', '0000-00-00 00:00:00', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(16, '100003', NULL, 10003, 3, 'Oasis Dress', '[\"2024\\/01\\/02\\/3bc38a9998162e21ed0489aacbe866fd_1704191651.webp\",\"2024\\/01\\/02\\/7173b305fce83b1d1a045f0af1be6a82_1704191651.webp\",\"2024\\/01\\/02\\/48b99d9b9797dcf24596e3938959522f_1704191651.webp\"]', '[{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"XL\"}]', 1, NULL, NULL, 3999.00, 3899.00, NULL, NULL, NULL, NULL, 3899, '2024-02-07 19:31:47', '2024-02-07 19:31:47', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(14, '100003', NULL, 10003, 2, 'Abby Printed Dress', '[\"2024\\/01\\/02\\/1918209e48a1c7154e26191bca0c8cf6_1704191275.webp\",\"2024\\/01\\/02\\/aeaf9bfd23490e29699aca0e63dadfd2_1704191275.webp\",\"2024\\/01\\/02\\/4add26187f35060e6e0c88d6b64a31c2_1704191275.webp\"]', '[{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"M\"}]', 1, NULL, NULL, 3999.00, 1999.00, NULL, NULL, NULL, NULL, 1999, '2024-02-07 19:31:47', '2024-02-07 19:31:47', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(15, '100003', NULL, 10003, 5, 'Satin Sway Set', '[\"2024\\/01\\/02\\/7076613d8a249f70da2ab1c9b4366daa_1704191862.webp\",\"2024\\/01\\/02\\/753e417fdd0401fe9a34f8ad9d8d3021_1704191862.webp\",\"2024\\/01\\/02\\/fb5c2f342e0d05f186ecf820156acf64_1704191862.webp\"]', '[{\"attr_id\":\"4\",\"attr_name\":\"Color\",\"attr_value\":\"#b9aee8\"},{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"S\"}]', 1, NULL, NULL, 4599.00, 4499.00, NULL, NULL, NULL, NULL, 4499, '2024-02-07 19:31:47', '2024-02-07 19:31:47', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(22, '100004', NULL, 10005, 2, 'Abby Printed Dress', '[\"2024\\/01\\/02\\/1918209e48a1c7154e26191bca0c8cf6_1704191275.webp\",\"2024\\/01\\/02\\/aeaf9bfd23490e29699aca0e63dadfd2_1704191275.webp\",\"2024\\/01\\/02\\/4add26187f35060e6e0c88d6b64a31c2_1704191275.webp\"]', '[{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"XL\"}]', 1, NULL, NULL, 3999.00, 1999.00, NULL, NULL, NULL, NULL, 1999, '2024-02-27 07:42:20', '2024-02-27 07:42:20', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(23, '100004', NULL, 10005, 3, 'Oasis Dress', '[\"2024\\/01\\/02\\/3bc38a9998162e21ed0489aacbe866fd_1704191651.webp\",\"2024\\/01\\/02\\/7173b305fce83b1d1a045f0af1be6a82_1704191651.webp\",\"2024\\/01\\/02\\/48b99d9b9797dcf24596e3938959522f_1704191651.webp\"]', '[{\"attr_id\":\"5\",\"attr_name\":\"Size\",\"attr_value\":\"XL\"}]', 1, NULL, NULL, 3999.00, 3899.00, NULL, NULL, NULL, NULL, 3899, '2024-02-27 07:42:20', '2024-02-27 07:42:20', NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `otps`
+--
+
+CREATE TABLE `otps` (
+  `id` int(11) NOT NULL,
+  `email` varchar(255) DEFAULT NULL,
+  `otp` varchar(6) DEFAULT NULL,
+  `expired_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `otps`
+--
+
+INSERT INTO `otps` (`id`, `email`, `otp`, `expired_at`) VALUES
+(3, 'paul.jony70@gmail.com', '498810', '2024-02-04 17:43:13');
 
 -- --------------------------------------------------------
 
@@ -2102,7 +2175,7 @@ CREATE TABLE `pincode` (
   `pincode` int(11) NOT NULL,
   `name` varchar(100) NOT NULL,
   `shippingfee` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `pincode`
@@ -2123,7 +2196,7 @@ CREATE TABLE `popularprod` (
   `prodid` int(11) NOT NULL,
   `prodname` varchar(300) NOT NULL,
   `orderid` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `popularprod`
@@ -2147,7 +2220,7 @@ CREATE TABLE `popular_product` (
   `product_id` varchar(200) NOT NULL,
   `type` varchar(100) NOT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `popular_product`
@@ -2183,18 +2256,23 @@ CREATE TABLE `product` (
   `prod_brand_id` int(11) NOT NULL,
   `prod_cat_id` int(11) NOT NULL,
   `status` varchar(10) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `product`
 --
 
 INSERT INTO `product` (`prod_id`, `prod_name`, `prod_stock`, `prod_brand_id`, `prod_cat_id`, `status`) VALUES
-(1, 'Lune Love Maxi', 100, 5, 7, 'active'),
+(1, 'Lune Love Maxi', 100, 2, 7, 'active'),
 (2, 'Abby Printed Dress', 80, 2, 2, 'active'),
 (3, 'Oasis Dress', 0, 8, 2, 'active'),
 (4, 'Pitch Black Dress', 0, 6, 2, 'active'),
-(5, 'Satin Sway Set', 1, 10, 2, 'active');
+(5, 'Satin Sway Set', 1, 10, 2, 'active'),
+(6, 'Brooke Trench Coat', 8, 2, 2, 'active'),
+(7, 'Sand Hues Viscose Set', 20, 4, 2, 'active'),
+(8, 'Red One Piece Long Full Sleeve Dress', 6, 6, 2, 'active'),
+(9, 'Green gown for girls', 2, 7, 2, 'active'),
+(10, 'white tshirt', 20, 5, 2, 'active');
 
 -- --------------------------------------------------------
 
@@ -2205,11 +2283,11 @@ INSERT INTO `product` (`prod_id`, `prod_name`, `prod_stock`, `prod_brand_id`, `p
 CREATE TABLE `productdetails` (
   `prod_id` int(11) NOT NULL,
   `prod_name` varchar(300) NOT NULL,
-  `prod_desc` text NOT NULL,
-  `prod_fulldetail` text NOT NULL,
+  `prod_desc` mediumtext NOT NULL,
+  `prod_fulldetail` mediumtext NOT NULL,
   `name_ar` varchar(100) NOT NULL,
-  `short_ar` text NOT NULL,
-  `desc_ar` text NOT NULL,
+  `short_ar` mediumtext NOT NULL,
+  `desc_ar` mediumtext NOT NULL,
   `prod_mrp` decimal(10,2) NOT NULL,
   `prod_price` decimal(10,2) NOT NULL,
   `cgst` float NOT NULL,
@@ -2219,12 +2297,12 @@ CREATE TABLE `productdetails` (
   `hsn_code` varchar(50) NOT NULL,
   `w_price` float NOT NULL,
   `w_qty` int(11) NOT NULL,
-  `other_attribute` text NOT NULL,
+  `other_attribute` mediumtext NOT NULL,
   `stock` int(11) NOT NULL,
   `unit` varchar(30) NOT NULL,
   `prod_rating` int(11) NOT NULL,
   `prod_rating_count` int(11) NOT NULL,
-  `prod_img_url` text NOT NULL,
+  `prod_img_url` mediumtext NOT NULL,
   `cat_id` int(11) NOT NULL,
   `brand_id` int(11) NOT NULL,
   `review_id` int(11) NOT NULL,
@@ -2232,12 +2310,12 @@ CREATE TABLE `productdetails` (
   `update_by` date NOT NULL,
   `coins` int(11) DEFAULT NULL,
   `discount_coins` int(11) DEFAULT NULL,
-  `pricearray` text DEFAULT NULL,
+  `pricearray` mediumtext DEFAULT NULL,
   `displaystock` int(11) DEFAULT NULL,
-  `sellername` varchar(80) CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci DEFAULT NULL,
+  `sellername` varchar(80) DEFAULT NULL,
   `prod_remark` varchar(200) DEFAULT NULL,
   `freeship` int(11) DEFAULT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `productdetails`
@@ -2246,9 +2324,14 @@ CREATE TABLE `productdetails` (
 INSERT INTO `productdetails` (`prod_id`, `prod_name`, `prod_desc`, `prod_fulldetail`, `name_ar`, `short_ar`, `desc_ar`, `prod_mrp`, `prod_price`, `cgst`, `sgst`, `igst`, `shipping`, `hsn_code`, `w_price`, `w_qty`, `other_attribute`, `stock`, `unit`, `prod_rating`, `prod_rating_count`, `prod_img_url`, `cat_id`, `brand_id`, `review_id`, `create_by`, `update_by`, `coins`, `discount_coins`, `pricearray`, `displaystock`, `sellername`, `prod_remark`, `freeship`) VALUES
 (1, 'Lune Love Maxi', '', '&lt;p&gt;Our Lune Love maxi comes with full sleeves and a wrap silhouette. It also features a front slit and an A-line overlap style - so chic, it\'ll make heads turn.&lt;/p&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Occasion&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Evening Wear&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Top And Dress Style&lt;/strong&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;Fit and Flare&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Fit&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Comfort&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Print Type&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;Solid&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Product Length&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Full Length&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Neck Collar&amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;V-Neck&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Sleeve length&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Long&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Hemline&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;Asymmetric&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Closure&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Slip-On&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Country of Origin&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;India&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;strong&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;Name and Address of Manufacturer&lt;/span&gt;Manufactured by&lt;/strong&gt; - Ochre &amp;amp; Black Private Limited, Plot No R 847/1/1, TTC Ind. Area, MIDC, Rabale, Navi Mumbai, India - 400701.&lt;/div&gt;', '', '', '&lt;p&gt;Our Lune Love maxi comes with full sleeves and a wrap silhouette. It also features a front slit and an A-line overlap style - so chic, it\'ll make heads turn.&lt;/p&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Occasion&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Evening Wear&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Top And Dress Style&lt;/strong&gt;&amp;nbsp; &amp;nbsp;&lt;/span&gt;Fit and Flare&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Fit&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Comfort&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Print Type&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;Solid&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Product Length&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/span&gt;Full Length&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Neck Collar&amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;V-Neck&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Sleeve length&amp;nbsp; &amp;nbsp;&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Long&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Hemline&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;Asymmetric&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Closure&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/span&gt;Slip-On&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;&lt;strong&gt;Country of Origin&lt;/strong&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;/span&gt;India&lt;/div&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;strong&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;Name and Address of Manufacturer&lt;/span&gt;Manufactured by&lt;/strong&gt; - Ochre &amp;amp; Black Private Limited, Plot No R 847/1/1, TTC Ind. Area, MIDC, Rabale, Navi Mumbai, India - 400701.&lt;/div&gt;', 3999.00, 3499.00, 0, 0, 0, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 100, '0', 0, 0, '[\"2024\\/01\\/18\\/e9837ec0bc56df3e02a43015804fdc01_1705519982.webp\",\"2024\\/01\\/18\\/a47edfd0d648885e2ed8eafaf5896e4e_1705519982.webp\",\"2024\\/01\\/18\\/2f1b6a5f72b3c978a1e9021dffaff1f4_1705519982.webp\"]', 7, 5, 0, '2024-01-02', '2024-01-18', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (2, 'Abby Printed Dress', '', '&lt;p&gt;Perfect for your next dinner party, this mini dress has an eye-catching abstract print all over. It features a V-neckline and tie-up detailing at the waist.&lt;/p&gt;', '', '', '&lt;p&gt;Perfect for your next dinner party, this mini dress has an eye-catching abstract print all over. It features a V-neckline and tie-up detailing at the waist.&lt;/p&gt;', 3999.00, 1999.00, 0, 0, 0, 0, '200', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 80, '0', 5, 10, '[\"2024\\/01\\/02\\/1918209e48a1c7154e26191bca0c8cf6_1704191275.webp\",\"2024\\/01\\/02\\/aeaf9bfd23490e29699aca0e63dadfd2_1704191275.webp\",\"2024\\/01\\/02\\/4add26187f35060e6e0c88d6b64a31c2_1704191275.webp\"]', 2, 2, 0, '2024-01-02', '2024-01-18', NULL, NULL, NULL, NULL, NULL, '200 Sold In 3 Hours', NULL),
-(3, 'Oasis Dress', '', '&lt;p&gt;This long sleeve dress features an all-over abstract print and a straight fit. It ends right above the knees and has a wrap detail at the waist, making it the perfect party ensemble.&lt;/p&gt;', '', '', '', 3999.00, 3999.00, 0, 0, 0, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 0, '', 0, 0, '[\n    \"2024\\/01\\/02\\/3bc38a9998162e21ed0489aacbe866fd_1704191651.webp\",\n    \"2024\\/01\\/02\\/7173b305fce83b1d1a045f0af1be6a82_1704191651.webp\",\n    \"2024\\/01\\/02\\/48b99d9b9797dcf24596e3938959522f_1704191651.webp\"\n]', 2, 8, 0, '2024-01-02', '2024-01-02', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(3, 'Oasis Dress', '', '&lt;p&gt;This long sleeve dress features an all-over abstract print and a straight fit. It ends right above the knees and has a wrap detail at the waist, making it the perfect party ensemble.&lt;/p&gt;', '', '', '', 3999.00, 2999.00, 0, 0, 0, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 0, '', 0, 0, '[\n    \"2024\\/01\\/02\\/3bc38a9998162e21ed0489aacbe866fd_1704191651.webp\",\n    \"2024\\/01\\/02\\/7173b305fce83b1d1a045f0af1be6a82_1704191651.webp\",\n    \"2024\\/01\\/02\\/48b99d9b9797dcf24596e3938959522f_1704191651.webp\"\n]', 2, 8, 0, '2024-01-02', '2024-01-02', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
 (4, 'Pitch Black Dress', '', '&lt;p&gt;This chic tube dress is just the statement dress you need for to be the party-starter at your next social gala. It features a drape detail with a wrapped silhouette and an asymmetric hemline.&lt;/p&gt;', '', '', '', 2999.00, 2999.00, 0, 0, 0, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 0, '', 0, 0, '[\n    \"2024\\/01\\/02\\/0be5289d4093b61e506443dde5fecb80_1704191730.webp\",\n    \"2024\\/01\\/02\\/d020d75a950f8f33e86e8e2124b6b1b9_1704191730.webp\",\n    \"2024\\/01\\/02\\/2d31fde766606b425f11f3bc72eb5f6c_1704191730.webp\"\n]', 2, 6, 0, '2024-01-02', '2024-01-02', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
-(5, 'Satin Sway Set', '', '&lt;p&gt;This satin finish set features a high-shine shirt and a draped skirt with a knot detail. The colour and wrap silhouette add the perfect blend of glitz and elegance to your next celebration.&lt;/p&gt;', '', '', '', 4699.00, 4699.00, 0, 0, 0, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 0, '', 0, 0, '[\n    \"2024\\/01\\/02\\/7076613d8a249f70da2ab1c9b4366daa_1704191862.webp\",\n    \"2024\\/01\\/02\\/753e417fdd0401fe9a34f8ad9d8d3021_1704191862.webp\",\n    \"2024\\/01\\/02\\/fb5c2f342e0d05f186ecf820156acf64_1704191862.webp\"\n]', 2, 10, 0, '2024-01-02', '2024-01-02', NULL, NULL, NULL, NULL, NULL, NULL, NULL);
+(5, 'Satin Sway Set', '', '&lt;p&gt;This satin finish set features a high-shine shirt and a draped skirt with a knot detail. The colour and wrap silhouette add the perfect blend of glitz and elegance to your next celebration.&lt;/p&gt;', '', '', '', 4699.00, 4699.00, 0, 0, 0, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 0, '', 0, 0, '[\n    \"2024\\/01\\/02\\/7076613d8a249f70da2ab1c9b4366daa_1704191862.webp\",\n    \"2024\\/01\\/02\\/753e417fdd0401fe9a34f8ad9d8d3021_1704191862.webp\",\n    \"2024\\/01\\/02\\/fb5c2f342e0d05f186ecf820156acf64_1704191862.webp\"\n]', 2, 10, 0, '2024-01-02', '2024-01-02', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(6, 'Brooke Trench Coat', '', '&lt;p&gt;This trench coat has a long length, a straight fit, and features a lapel collar. The cinching fabric belt gives dimension to the sihouette. Wear it over a dress on the weekend, or over a shirt and relaxed jeans during the week.&lt;/p&gt;\r\n&lt;table style=&quot;height: 97px;&quot; width=&quot;343&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Pattern&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Solid/Plain&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Type&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Overcoats&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Neckline Type&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Notched Lapel&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Sleeve Type&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Full Sleeves&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;', '', '', '&lt;p&gt;This trench coat has a long length, a straight fit, and features a lapel collar. The cinching fabric belt gives dimension to the sihouette. Wear it over a dress on the weekend, or over a shirt and relaxed jeans during the week.&lt;/p&gt;\r\n&lt;table style=&quot;height: 97px;&quot; width=&quot;343&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Pattern&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Solid/Plain&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Type&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Overcoats&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Neckline Type&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Notched Lapel&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;\r\n&lt;p class=&quot;attribute-key css-1ij3tdp&quot;&gt;&lt;span style=&quot;color: #999999;&quot;&gt;Sleeve Type&lt;/span&gt;&lt;/p&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 163.5px;&quot;&gt;Full Sleeves&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;', 2999.00, 2499.00, 2.5, 2.5, 5, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 8, '0', 4, 278, '[\"2024\\/03\\/17\\/de06c3d2fd3164b5b2b573e735892e47_1710674333.webp\",\"2024\\/03\\/17\\/57e0bd47f5dc80b258428f47d0fdef07_1710674333.webp\",\"2024\\/03\\/17\\/ae5c9d724cb0392a2f76100a82dbe2ed_1710674333.webp\",\"2024\\/03\\/17\\/291e0e6523f3c6cf66cb2278a448f61a_1710674333.webp\"]', 2, 2, 0, '2024-03-17', '2024-03-17', NULL, NULL, NULL, NULL, NULL, '', NULL),
+(7, 'Sand Hues Viscose Set', '', '&lt;p&gt;Jumping on the waistcoat bandwagon - this neutral set is all you need to add versatility to your capsule wardrobe. It comes with a sleeveless, V-neck waistcoat-style top and a pair of straight-fit trousers with pockets. Made with a blend of viscose and linen.&lt;/p&gt;\r\n&lt;table style=&quot;height: 159px;&quot; width=&quot;372&quot;&gt;\r\n&lt;tbody&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;\r\n&lt;div class=&quot;cms-generic-copy flex mb-1&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;Occasion&lt;/span&gt;Casual&amp;nbsp;&lt;/div&gt;\r\n&lt;/td&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;Wear&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;&lt;span class=&quot;pdp__details-description-label&quot;&gt;Fit&lt;/span&gt;Tapered&amp;nbsp;&lt;/td&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;Fit&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;Print type&lt;/td&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;Solid&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;tr&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;Product Length&lt;/td&gt;\r\n&lt;td style=&quot;width: 178px;&quot;&gt;Full Length&lt;/td&gt;\r\n&lt;/tr&gt;\r\n&lt;/tbody&gt;\r\n&lt;/table&gt;\r\n&lt;p&gt;&amp;nbsp;&lt;/p&gt;', '', '', '', 1999.00, 1699.00, 2.5, 2.5, 5, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 20, '', 4, 698, '[\n    \"2024\\/03\\/17\\/63abcf5a71d336b63a80b3c8c0223075_1710675242.webp\",\n    \"2024\\/03\\/17\\/5bd135400346cceabb561bdec155f7ee_1710675242.webp\",\n    \"2024\\/03\\/17\\/90c0cf7a325983ffc06103c93ee6bacd_1710675242.webp\"\n]', 2, 4, 0, '2024-03-17', '2024-03-17', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(8, 'Red One Piece Long Full Sleeve Dress', '', '&lt;p&gt;Red One Piece Long Full Sleeve Dress&lt;/p&gt;\r\n&lt;p&gt;Amp up your closet with this red one piece logn full sleeve dress&amp;nbsp;By Sonal Shirt Dress with Front Drape. Made with the finest material, it is designed to perfection. Style it with footwear to complete the look.&lt;/p&gt;', '', '', '', 1149.00, 899.00, 6, 6, 12, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 6, '', 3, 183, '[\n    \"2024\\/03\\/17\\/3ad1a172b7d093dd3578bc86fac92e5c_1710676487.webp\",\n    \"2024\\/03\\/17\\/b057716183de90e178fc4ab860c411d6_1710676487.webp\",\n    \"2024\\/03\\/17\\/cdeae65847a683dd2b07b7cbb50b42f5_1710676487.webp\",\n    \"2024\\/03\\/17\\/445f147c422fc09d6aac683534d75479_1710676487.webp\"\n]', 2, 6, 0, '2024-03-17', '2024-03-17', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(9, 'Green gown for girls', '', '&lt;p&gt;&lt;em&gt;This garment contains recycled polyester, which reuses existing plastic material. This reduces reliance on virgin materials.&lt;/em&gt;&lt;/p&gt;\r\n&lt;ul&gt;\r\n&lt;li&gt;A gorgeous maxi dress with trending detailing that will help you make an entrance at your next event&lt;/li&gt;\r\n&lt;li&gt;Length: 132.3cm (Size 8)&lt;/li&gt;\r\n&lt;li&gt;Regular fit&lt;/li&gt;\r\n&lt;li&gt;Lightweight woven fabrication&lt;/li&gt;\r\n&lt;li&gt;Low v-neckline&lt;/li&gt;\r\n&lt;li&gt;Ruffle shoulder straps&lt;/li&gt;\r\n&lt;li&gt;Cross waist detail&lt;/li&gt;\r\n&lt;li&gt;Full, flowing maxi skirt&lt;/li&gt;\r\n&lt;li&gt;Subtle high-low hem&lt;/li&gt;\r\n&lt;li&gt;Open back&lt;/li&gt;\r\n&lt;li&gt;Back band with button fastening&lt;/li&gt;\r\n&lt;li&gt;Concealed zip&lt;/li&gt;\r\n&lt;li&gt;Lined&lt;/li&gt;\r\n&lt;li&gt;Main/Lining: 100% Polyester&lt;/li&gt;\r\n&lt;li&gt;Cold hand wash separately or cold delicate machine wash in garment bag.&lt;/li&gt;\r\n&lt;li&gt;Our model is wearing size AU 8/XS&lt;/li&gt;\r\n&lt;/ul&gt;', '', '', '', 1899.00, 1199.00, 6, 6, 12, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 2, '', 3, 437, '[\n    \"2024\\/03\\/17\\/06a5351475d325ec61725526754f2392_1710676858.webp\",\n    \"2024\\/03\\/17\\/7f19ed9ddfc60885bf49636954789f58_1710676858.webp\",\n    \"2024\\/03\\/17\\/af66fb9cc86da896cae3b5d3774a238d_1710676858.webp\"\n]', 2, 7, 0, '2024-03-17', '2024-03-17', NULL, NULL, NULL, NULL, NULL, NULL, NULL),
+(10, 'white tshirt', '', '&lt;p&gt;white tshirt for gilrd&lt;/p&gt;', '', '', '&lt;p&gt;white tshirt for gilrd&lt;/p&gt;', 499.00, 399.00, 5, 5, 10, 0, '', 0, 0, '{\"size\":\"\",\"color\":\"\",\"weight\":\"\"}', 20, '0', 0, 0, '[\"2024\\/03\\/19\\/869017330afdffff5ebd6662965eac89_1710827354.webp\"]', 2, 5, 0, '2024-03-18', '2024-03-19', NULL, NULL, NULL, NULL, NULL, '', NULL);
 
 -- --------------------------------------------------------
 
@@ -2261,7 +2344,7 @@ CREATE TABLE `product_attribute` (
   `prod_attr_id` int(11) NOT NULL,
   `prod_id` varchar(100) NOT NULL,
   `attr_value` varchar(1000) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `product_attribute`
@@ -2272,7 +2355,8 @@ INSERT INTO `product_attribute` (`id`, `prod_attr_id`, `prod_id`, `attr_value`) 
 (4, 5, '4', '{\"0\":\"L\",\"1\":\"M\"}'),
 (5, 4, '5', '{\"0\":\"#b9aee8\"}'),
 (6, 5, '5', '{\"0\":\"M\",\"1\":\"S\"}'),
-(8, 5, '2', '{\"0\":\"L\",\"1\":\"M\",\"2\":\"S\",\"3\":\"XL\"}');
+(8, 5, '2', '{\"0\":\"L\",\"1\":\"M\",\"2\":\"S\",\"3\":\"XL\"}'),
+(9, 4, '6', '{\"0\":\"#CF8878\",\"1\":\"#E4C5AC\"}');
 
 -- --------------------------------------------------------
 
@@ -2284,7 +2368,7 @@ CREATE TABLE `product_attributes_conf` (
   `id` int(11) NOT NULL,
   `attribute_id` int(11) NOT NULL,
   `attribute_value` varchar(500) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `product_attributes_conf`
@@ -2298,7 +2382,12 @@ INSERT INTO `product_attributes_conf` (`id`, `attribute_id`, `attribute_value`) 
 (12, 5, 'L'),
 (13, 5, 'XL'),
 (14, 4, '#d17bc4'),
-(15, 4, '#ff6600');
+(15, 4, '#ff6600'),
+(16, 4, '#ffffff'),
+(17, 4, '#000000'),
+(18, 5, 'XLL'),
+(19, 4, '#E4C5AC'),
+(20, 4, '#CF8878');
 
 -- --------------------------------------------------------
 
@@ -2312,7 +2401,7 @@ CREATE TABLE `product_attributes_set` (
   `attribute_ar` varchar(255) DEFAULT NULL,
   `created_at` datetime DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `product_attributes_set`
@@ -2336,19 +2425,19 @@ CREATE TABLE `product_attribute_value` (
   `price` float NOT NULL,
   `mrp` float NOT NULL,
   `stock` int(11) NOT NULL,
-  `conf_image` text NOT NULL,
+  `conf_image` mediumtext NOT NULL,
   `notify_on_stock_below` int(11) DEFAULT NULL,
   `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
   `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `product_attribute_value`
 --
 
 INSERT INTO `product_attribute_value` (`id`, `product_id`, `prod_attr_value`, `price`, `mrp`, `stock`, `conf_image`, `notify_on_stock_below`, `created_at`, `updated_at`) VALUES
-(5, '3', '{\"0\":\"L\"}', 3999, 3999, 222, '', 1, '2024-01-02 10:34:11', '2024-01-02 10:34:11'),
-(6, '3', '{\"0\":\"XL\"}', 3999, 3999, 221, '', 1, '2024-01-02 10:34:11', '2024-01-16 20:27:43'),
+(5, '3', '{\"0\":\"L\"}', 3799, 3999, 222, '', 1, '2024-01-02 10:34:11', '2024-02-06 13:54:40'),
+(6, '3', '{\"0\":\"XL\"}', 3899, 3999, 220, '', 1, '2024-01-02 10:34:11', '2024-02-27 07:42:20'),
 (7, '4', '{\"0\":\"L\"}', 2999, 2999, 222, '', 1, '2024-01-02 10:35:30', '2024-01-02 10:35:30'),
 (8, '4', '{\"0\":\"M\"}', 2999, 2999, 222, '', 1, '2024-01-02 10:35:30', '2024-01-02 10:35:30'),
 (9, '5', '{\"0\":\"#b9aee8\",\"1\":\"M\"}', 4699, 4799, 5, '2024/01/02/daaebc696d3b0d629052ecdd98632fc4_1704191862.webp', 1, '2024-01-02 10:37:42', '2024-01-06 12:57:53'),
@@ -2356,7 +2445,9 @@ INSERT INTO `product_attribute_value` (`id`, `product_id`, `prod_attr_value`, `p
 (15, '2', '{\"0\":\"L\"}', 1999, 3999, 20, '', 1, '2024-01-17 20:43:25', '2024-01-17 20:43:25'),
 (16, '2', '{\"0\":\"M\"}', 1999, 3999, 20, '', 1, '2024-01-17 20:43:25', '2024-01-17 20:43:25'),
 (17, '2', '{\"0\":\"S\"}', 1999, 3999, 20, '', 1, '2024-01-17 20:43:25', '2024-01-17 20:43:25'),
-(18, '2', '{\"0\":\"XL\"}', 1999, 3999, 20, '', 1, '2024-01-17 20:43:25', '2024-01-17 20:43:25');
+(18, '2', '{\"0\":\"XL\"}', 1999, 3999, 19, '', 1, '2024-01-17 20:43:25', '2024-02-27 07:42:20'),
+(19, '6', '{\"0\":\"#CF8878\"}', 2499, 2999, 3, '[\"2024/03/17/2bc33226488b434823b9aadb2328c539_1710674333.webp\"]', 1, '2024-03-17 11:18:54', '2024-03-17 11:18:54'),
+(20, '6', '{\"0\":\"#E4C5AC\"}', 2049, 2999, 5, '[\"2024/03/17/d92da5a8c8014dc44537a7ec5557a131_1710674333.webp\"]', 1, '2024-03-17 11:18:54', '2024-03-17 11:18:54');
 
 -- --------------------------------------------------------
 
@@ -2369,7 +2460,7 @@ CREATE TABLE `product_variant_cat` (
   `variant_name` varchar(150) NOT NULL,
   `parent_id` int(11) NOT NULL,
   `variant_order` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `product_variant_cat`
@@ -2399,8 +2490,8 @@ INSERT INTO `product_variant_cat` (`variant_id`, `variant_name`, `parent_id`, `v
 
 CREATE TABLE `review` (
   `review_id` int(11) NOT NULL,
-  `review_array` text NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `review_array` mediumtext NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `review`
@@ -2419,12 +2510,12 @@ INSERT INTO `review` (`review_id`, `review_array`) VALUES
 CREATE TABLE `sectionvalue` (
   `id` int(11) NOT NULL,
   `layoutsection_id` int(11) NOT NULL,
-  `title` text NOT NULL,
-  `description` text NOT NULL,
-  `image` text NOT NULL,
-  `button` text NOT NULL,
-  `onclick_url` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 COLLATE=latin1_swedish_ci;
+  `title` mediumtext NOT NULL,
+  `description` mediumtext NOT NULL,
+  `image` mediumtext NOT NULL,
+  `button` mediumtext NOT NULL,
+  `onclick_url` mediumtext NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `sectionvalue`
@@ -2455,18 +2546,18 @@ CREATE TABLE `seller_login` (
   `phone` varchar(12) NOT NULL,
   `email` varchar(50) NOT NULL,
   `password` varchar(20) NOT NULL,
-  `address` text NOT NULL,
+  `address` mediumtext NOT NULL,
   `status` varchar(10) NOT NULL,
   `roll` varchar(20) NOT NULL,
   `date` datetime NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `seller_login`
 --
 
 INSERT INTO `seller_login` (`seller_id`, `fname`, `lname`, `phone`, `email`, `password`, `address`, `status`, `roll`, `date`) VALUES
-(1, 'bapan halder', '', '9717999121', 'paul.jony70@gmail.com', 'Admin@123', 'address : abc', 'active', 'admin', '2022-05-24 00:00:00');
+(1, 'BlueApp', '', '9144040888', 'demo@gmail.com', 'Admin@123', 'address : abc', 'active', 'admin', '2022-05-24 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -2476,24 +2567,24 @@ INSERT INTO `seller_login` (`seller_id`, `fname`, `lname`, `phone`, `email`, `pa
 
 CREATE TABLE `settings` (
   `settings_id` int(11) NOT NULL,
-  `type` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `description` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `type` mediumtext NOT NULL,
+  `description` longtext NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `settings`
 --
 
 INSERT INTO `settings` (`settings_id`, `type`, `description`) VALUES
-(1, 'gtag_manager', '<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HFKCQNVVT5\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag(\"js\", new Date());\r\n\r\n  gtag(\"config\", \"G-HFKCQNVVT5\");\r\n</script>'),
-(2, 'facebook_pixel', '<script async src=\"https://www.googletagmanager.com/gtag/js?id=G-HFKCQNVVT5\"></script>\r\n<script>\r\n  window.dataLayer = window.dataLayer || [];\r\n  function gtag(){dataLayer.push(arguments);}\r\n  gtag(\"js\", new Date());\r\n\r\n  gtag(\"config\", \"G-HFKCQNVVT5\");\r\n</script>'),
+(1, 'gtag_manager', ''),
+(2, 'facebook_pixel', ''),
 (3, 'topbar_offer', 'Free Shipping on All Orders | Get Extra ₹100 OFF on Spent of ₹1499 Use Code: BLUEAPP19985 2'),
 (4, 'theme_color', '#929B76'),
 (5, 'system_currency_symbol', '₹'),
 (6, 'smtp_host', 'smtp.hostinger.com'),
 (7, 'smtp_port', '587'),
-(8, 'smtp_user', 'care@reshamdhaage.com'),
-(9, 'smtp_password', 't*3+6mu$rAW4oCre');
+(8, 'smtp_user', 'alert@blueappsoftware.com'),
+(9, 'smtp_password', '0Lg37!!raS@UB*QeC2Fr');
 
 -- --------------------------------------------------------
 
@@ -2505,7 +2596,7 @@ CREATE TABLE `state` (
   `stateid` int(11) NOT NULL,
   `name` varchar(50) NOT NULL,
   `countryid` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `state`
@@ -2561,7 +2652,7 @@ CREATE TABLE `store_config` (
   `name` varchar(50) NOT NULL,
   `value` varchar(50) NOT NULL,
   `other` varchar(50) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `store_config`
@@ -2592,21 +2683,54 @@ CREATE TABLE `store_setting` (
   `address` varchar(100) NOT NULL,
   `phone` varchar(30) NOT NULL,
   `tax_no` varchar(30) NOT NULL,
-  `logo` text NOT NULL,
-  `web_url` text NOT NULL,
+  `logo` mediumtext NOT NULL,
+  `web_url` mediumtext NOT NULL,
   `email` varchar(60) NOT NULL,
   `whatsappno` varchar(14) NOT NULL,
-  `termcondition` text NOT NULL,
-  `aboutus` text NOT NULL,
+  `termcondition` mediumtext NOT NULL,
+  `aboutus` mediumtext NOT NULL,
   `youtubeurl` varchar(300) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `store_setting`
 --
 
 INSERT INTO `store_setting` (`seller_id`, `store_name`, `address`, `phone`, `tax_no`, `logo`, `web_url`, `email`, `whatsappno`, `termcondition`, `aboutus`, `youtubeurl`) VALUES
-(1, 'Reshamdhaage', 'Delhi', '9717999121', '', '', '', 'amitkumar7361@gmail.com', '919717999121', 'TERMS AND CONDITIONS :\n', 'about us  MK Kirana', '');
+(1, 'Single Vendor Demo', 'Delhi', '9144040888', '', '', '', 'hello@blueappsoftware.com', '+919144040888', 'TERMS AND CONDITIONS :\n', 'Demo Single vendor eCommerce website', '');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `subscription_plans`
+--
+
+CREATE TABLE `subscription_plans` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `total_amount` decimal(10,2) NOT NULL,
+  `quarterly_amount1` decimal(10,2) NOT NULL,
+  `quarterly_amount2` decimal(10,2) NOT NULL,
+  `quarterly_amount3` decimal(10,2) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `transactions`
+--
+
+CREATE TABLE `transactions` (
+  `id` int(11) DEFAULT NULL,
+  `plan_id` int(11) NOT NULL,
+  `plan_name` varchar(255) NOT NULL,
+  `order_id` varchar(255) DEFAULT NULL,
+  `transaction_id` varchar(255) NOT NULL,
+  `amount` decimal(10,2) NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 -- --------------------------------------------------------
 
@@ -2617,24 +2741,77 @@ INSERT INTO `store_setting` (`seller_id`, `store_name`, `address`, `phone`, `tax
 CREATE TABLE `user_profile` (
   `sno` int(11) NOT NULL,
   `full_name` varchar(30) NOT NULL,
-  `address` text NOT NULL,
+  `address` mediumtext DEFAULT NULL,
   `email` varchar(60) NOT NULL,
-  `phone_no` varchar(12) NOT NULL,
-  `password` varchar(20) NOT NULL,
+  `phone_no` varchar(12) DEFAULT NULL,
+  `password` varchar(20) DEFAULT NULL,
   `user_id` int(20) NOT NULL,
   `display_name` varchar(60) DEFAULT NULL,
-  `date` date NOT NULL,
-  `interestid` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `interestid` int(11) DEFAULT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NOT NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `user_profile`
 --
 
-INSERT INTO `user_profile` (`sno`, `full_name`, `address`, `email`, `phone_no`, `password`, `user_id`, `display_name`, `date`, `interestid`) VALUES
-(32, 'Yuvraj ', '', 'paul.jony70@gmail.com', '7354570394', '7354570394', 10001, 'Yuvraj ', '2023-09-14', 0),
-(33, 'yuvraj', '', '', '9302650674', '9302650674', 10002, NULL, '2023-09-27', 0),
-(38, 'Jony Paul', '', 'paul.jony0606@gmail.com', '', '', 10003, 'Jony', '2024-01-12', 0);
+INSERT INTO `user_profile` (`sno`, `full_name`, `address`, `email`, `phone_no`, `password`, `user_id`, `display_name`, `interestid`, `created_at`, `updated_at`) VALUES
+(32, 'Yuvraj ', '', 'yuvraj@gmail.com', '7354570394', '7354570394', 10001, 'Yuvraj ', 0, '2024-02-04 08:56:32', '2024-02-04 16:50:03'),
+(33, 'yuvraj', '', '', '9302650674', '9302650674', 10002, NULL, 0, '2024-02-04 08:56:32', '2024-02-04 08:56:32'),
+(38, 'Jony Paul', '', 'paul.jony0606@gmail.com', '', '', 10003, 'Jony', 0, '2024-02-04 08:56:32', '2024-02-04 08:56:32'),
+(42, 'Jony Paul', NULL, 'paul.jony70@gmail.com', NULL, NULL, 10004, 'Jony', NULL, '2024-02-04 17:32:40', '2024-02-04 17:32:40'),
+(43, 'kama bb', NULL, 'kamal.bunkar07@gmail.com', NULL, NULL, 10005, 'kama', NULL, '2024-02-27 06:58:40', '2024-02-27 06:58:40');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wallets`
+--
+
+CREATE TABLE `wallets` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `amount` decimal(10,2) NOT NULL,
+  `status` enum('0','1') NOT NULL DEFAULT '1',
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp(),
+  `updated_at` timestamp NULL DEFAULT current_timestamp() ON UPDATE current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `wallets`
+--
+
+INSERT INTO `wallets` (`id`, `user_id`, `amount`, `status`, `created_at`, `updated_at`) VALUES
+(1, 10003, 532.00, '1', '2024-02-24 10:37:45', '2024-02-25 21:18:15');
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `wallet_transactions`
+--
+
+CREATE TABLE `wallet_transactions` (
+  `id` int(11) NOT NULL,
+  `user_id` int(11) NOT NULL,
+  `amount` decimal(10,2) NOT NULL,
+  `balance` decimal(10,2) NOT NULL,
+  `payment_type` enum('cr','dr') NOT NULL,
+  `remarks` text NOT NULL,
+  `created_at` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+
+--
+-- Dumping data for table `wallet_transactions`
+--
+
+INSERT INTO `wallet_transactions` (`id`, `user_id`, `amount`, `balance`, `payment_type`, `remarks`, `created_at`) VALUES
+(1, 10003, 10.00, 10.00, 'cr', 'Daily Spin Bonus', '2024-02-24 11:01:39'),
+(2, 10003, 5.00, 15.00, 'cr', 'Daily Spin Bonus', '2024-02-24 11:01:54'),
+(3, 10003, 5.00, 20.00, 'cr', 'Daily Spin Bonus/ Place Order Bonus', '2024-02-25 21:06:51'),
+(4, 10003, 5.00, 25.00, 'cr', 'Daily Spin Bonus/ Place Order Bonus', '2024-02-25 21:07:30'),
+(5, 10003, 25000.00, 25025.00, 'cr', 'Daily Spin Bonus/ Place Order Bonus', '2024-02-25 21:14:53'),
+(6, 10003, 24493.00, 532.00, 'dr', 'Place Order', '2024-02-25 21:18:15');
 
 -- --------------------------------------------------------
 
@@ -2644,15 +2821,16 @@ INSERT INTO `user_profile` (`sno`, `full_name`, `address`, `email`, `phone_no`, 
 
 CREATE TABLE `wishlist` (
   `user_id` int(11) NOT NULL,
-  `prod_id` text NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_general_ci;
+  `prod_id` mediumtext NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Dumping data for table `wishlist`
 --
 
 INSERT INTO `wishlist` (`user_id`, `prod_id`) VALUES
-(10003, '{\"1\":{\"index\":1,\"prod_id\":\"3\",\"date\":\"2024-01-16\"}}');
+(10003, '{\"1\":{\"index\":1,\"prod_id\":\"3\",\"date\":\"2024-01-16\"}}'),
+(10005, '[{\"index\":0,\"prod_id\":\"2\",\"date\":\"2024-02-27\"}]');
 
 --
 -- Indexes for dumped tables
@@ -2687,6 +2865,18 @@ ALTER TABLE `category`
 --
 ALTER TABLE `city`
   ADD PRIMARY KEY (`city_id`);
+
+--
+-- Indexes for table `custom_navigations`
+--
+ALTER TABLE `custom_navigations`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `custom_navigation_products`
+--
+ALTER TABLE `custom_navigation_products`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `deliverytime`
@@ -2759,6 +2949,13 @@ ALTER TABLE `orders`
 --
 ALTER TABLE `order_product`
   ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `otps`
+--
+ALTER TABLE `otps`
+  ADD PRIMARY KEY (`id`),
+  ADD UNIQUE KEY `email` (`email`);
 
 --
 -- Indexes for table `pincode`
@@ -2872,6 +3069,18 @@ ALTER TABLE `user_profile`
   ADD UNIQUE KEY `email` (`email`);
 
 --
+-- Indexes for table `wallets`
+--
+ALTER TABLE `wallets`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `wallet_transactions`
+--
+ALTER TABLE `wallet_transactions`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `wishlist`
 --
 ALTER TABLE `wishlist`
@@ -2898,6 +3107,18 @@ ALTER TABLE `category`
 --
 ALTER TABLE `city`
   MODIFY `city_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=1547;
+
+--
+-- AUTO_INCREMENT for table `custom_navigations`
+--
+ALTER TABLE `custom_navigations`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+
+--
+-- AUTO_INCREMENT for table `custom_navigation_products`
+--
+ALTER TABLE `custom_navigation_products`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=31;
 
 --
 -- AUTO_INCREMENT for table `deliverytime`
@@ -2963,13 +3184,19 @@ ALTER TABLE `offerzone`
 -- AUTO_INCREMENT for table `orders`
 --
 ALTER TABLE `orders`
-  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
 
 --
 -- AUTO_INCREMENT for table `order_product`
 --
 ALTER TABLE `order_product`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=24;
+
+--
+-- AUTO_INCREMENT for table `otps`
+--
+ALTER TABLE `otps`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `popularprod`
@@ -2987,19 +3214,19 @@ ALTER TABLE `popular_product`
 -- AUTO_INCREMENT for table `productdetails`
 --
 ALTER TABLE `productdetails`
-  MODIFY `prod_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `prod_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
 
 --
 -- AUTO_INCREMENT for table `product_attribute`
 --
 ALTER TABLE `product_attribute`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
 
 --
 -- AUTO_INCREMENT for table `product_attributes_conf`
 --
 ALTER TABLE `product_attributes_conf`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `product_attributes_set`
@@ -3011,7 +3238,7 @@ ALTER TABLE `product_attributes_set`
 -- AUTO_INCREMENT for table `product_attribute_value`
 --
 ALTER TABLE `product_attribute_value`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=19;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 
 --
 -- AUTO_INCREMENT for table `product_variant_cat`
@@ -3059,7 +3286,19 @@ ALTER TABLE `store_config`
 -- AUTO_INCREMENT for table `user_profile`
 --
 ALTER TABLE `user_profile`
-  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=39;
+  MODIFY `sno` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=44;
+
+--
+-- AUTO_INCREMENT for table `wallets`
+--
+ALTER TABLE `wallets`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `wallet_transactions`
+--
+ALTER TABLE `wallet_transactions`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

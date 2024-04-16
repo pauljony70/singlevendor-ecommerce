@@ -89,7 +89,7 @@ $actual_link = urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'
 								</div>
 							</div>
 						</div>
-						<div class="row d-none d-lg-flex">
+						<div class="row d-none">
 							<div class="col-12 px-0">
 								<div class="accordion" id="accordionPanelsStayOpenExample">
 									<div class="accordion-item">
@@ -212,7 +212,7 @@ $actual_link = urlencode((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on'
 							</div>
 						</div>
 						<a href="<?= base_url('return-and-exchange-policy') ?>" target="_blank" class="fs-6 text-dark text-decoration-underline mb-4" rel="noopener noreferrer">Return and exchange policy</a>
-						<div class="accordion d-md-none" id="accordionPanelsStayOpenExample">
+						<div class="accordion" id="accordionPanelsStayOpenExample">
 							<div class="accordion-item">
 								<h2 class="accordion-header">
 									<button class="accordion-button px-0" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">

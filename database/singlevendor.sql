@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Apr 16, 2024 at 04:36 PM
+-- Generation Time: Apr 16, 2024 at 05:07 PM
 -- Server version: 10.4.28-MariaDB
 -- PHP Version: 8.0.28
 
@@ -2557,7 +2557,7 @@ CREATE TABLE `seller_login` (
 --
 
 INSERT INTO `seller_login` (`seller_id`, `fname`, `lname`, `phone`, `email`, `password`, `address`, `status`, `roll`, `date`) VALUES
-(1, 'BlueApp', '', '9144040888', 'demo@gmail.com', 'Admin@123', 'address : abc', 'active', 'admin', '2022-05-24 00:00:00');
+(1, 'Jony', 'Paul', '9874627973', 'admin@example.com', 'admin123', 'address : abc', 'active', 'admin', '2022-05-24 00:00:00');
 
 -- --------------------------------------------------------
 
@@ -2697,7 +2697,7 @@ CREATE TABLE `store_setting` (
 --
 
 INSERT INTO `store_setting` (`seller_id`, `store_name`, `address`, `phone`, `tax_no`, `logo`, `web_url`, `email`, `whatsappno`, `termcondition`, `aboutus`, `youtubeurl`) VALUES
-(1, 'Single Vendor Demo', 'Delhi', '9144040888', '', '', '', 'hello@blueappsoftware.com', '+919144040888', 'TERMS AND CONDITIONS :\n', 'Demo Single vendor eCommerce website', '');
+(1, 'Single Vendor Demo', 'Delhi', '9874627973', '', '', '', 'paul.jony0606@gmail.com', '+919874627973', 'TERMS AND CONDITIONS :\n', 'Demo Single vendor eCommerce website', '');
 
 -- --------------------------------------------------------
 

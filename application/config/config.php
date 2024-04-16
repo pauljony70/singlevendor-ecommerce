@@ -27,7 +27,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 // $config['base_url'] = "https://singlevendor.blueappsoftware.com/";
 $config['base_url'] = "http://localhost/singlevendor-ecommerce/";
 
-define( 'APPLICATION_LOADED', true );
+define('APPLICATION_LOADED', true );
 
 /*
 |--------------------------------------------------------------------------

@@ -7,7 +7,7 @@
 date_default_timezone_set('Asia/Kolkata');
 
 define('HOST', 'localhost');
-define('DB1', 'reshamdhaage');
+define('DB1', 'singlevendor');
 define('USER', 'root');
 define('PASS', '');
 // define('DB1', 'u467215979_reshamdhaage');
@@ -18,9 +18,9 @@ $OTPauthKey = "";
 
 $serverkey = "AAAAcxFB1SWsdfsdf834hfnNeT";
 
-define('APP_NAME', 'reshamdhaage');
-define('BASEURL', 'http://localhost/reshamdhaage/');
-define('MEDIA_URL', 'http://localhost/reshamdhaage/media/');
+define('APP_NAME', 'singlevendor');
+define('BASEURL', 'http://localhost/singlevendor-ecommerce/');
+define('MEDIA_URL', 'http://localhost/singlevendor-ecommerce/media/');
 // define('BASEURL', 'https://reshamdhaage.com/');
 // define('MEDIA_URL', 'https://reshamdhaage.com/media/');
 

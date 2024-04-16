@@ -29,13 +29,24 @@ This is a single vendor eCommerce project developed using CodeIgniter 3.
 
 - The home page displays the featured products and categories.
 
+    ![Home Page](assets/screenshots/screencapture-localhost-singlevendor-ecommerce-2024-04-16-20_34_13.png)
+
 ### Product Details Page
 
 - Clicking on a product from the home page will take you to the product details page, where you can view more information about the product.
 
+    ![Product Details Page](assets/screenshots/screencapture-localhost-singlevendor-ecommerce-productdetail-Sand-Hues-Viscose-Set-7-2024-04-16-20_35_27.png)
+
 ### Image Upload
 
 - Users can upload product images via the provided functionality.
+
+## Admin Panel
+
+To access the admin panel, use the following credentials:
+
+- Email: admin@example.com
+- Password: admin123
 
 ## Contributing
 

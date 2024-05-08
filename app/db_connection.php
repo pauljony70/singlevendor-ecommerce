@@ -10,9 +10,6 @@ define('HOST', 'localhost');
 define('DB1', 'singlevendor');
 define('USER', 'root');
 define('PASS', '');
-// define('DB1', 'u467215979_reshamdhaage');
-// define('USER', 'u467215979_reshamdhaage');
-// define('PASS', '7z;Nx0U9?sK');
 
 $OTPauthKey = "";
 
